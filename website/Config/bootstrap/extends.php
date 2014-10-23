@@ -4,7 +4,6 @@ ob_start();
 
 date_default_timezone_set('PRC');
 
-
 /**
  *  自动加载 配置文件
  * @param type $filePath  路径地址
@@ -16,12 +15,12 @@ function fileRead($filePath) {
         /* to include all files that in the class folder what a way to include classes!!! */
         while (false !== ($file = readdir($handle))) {
             $fileName = $filePath . $file;
-            
-            
+
+
             //echo $fileName.'<br />';
-            
-            
-            if ($file != '.' && $file != '..' && $file != '.svn' && $file != '.DS_Store'&& $file!='Tpl') {
+
+
+            if ($file != '.' && $file != '..' && $file != '.svn' && $file != '.DS_Store' && $file != 'Tpl') {
                 if (is_file($fileName)) {
                     include_once($fileName);
                 } else if (is_dir($fileName)) {
@@ -239,10 +238,10 @@ function include_path_file($dirName, $fileKey) {
         }
     } else {
         $filePath = ROOT_DIR . '/' . $dirName . '/';
-        
-       // echo $filePath;
-        
-        
+
+        // echo $filePath;
+
+
         fileRead($filePath);
     }
 }
@@ -275,15 +274,15 @@ function transferData($url, $method, $data = '') {
 
 function curlPost($url, $post = null, $options = array()) {
 
- $ch = curl_init();
-        curl_setopt($ch,CURLOPT_URL,$url);
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
-        curl_setopt($ch,CURLOPT_POST,1);
-        curl_setopt($ch,CURLOPT_POSTFIELDS,$post);
-      $result =   curl_exec($ch);
-        curl_close($ch);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+    $result = curl_exec($ch);
+    curl_close($ch);
 
-        return $result;
+    return $result;
 }
 
 function curlGet($url) {
@@ -309,13 +308,11 @@ function curlGet($url) {
     return $result;
 }
 
-
 //设置用户session
 
-function set_user_session($info){
-    
-    $_SESSION['user'] = $info;
+function set_user_session($info) {
 
+    $_SESSION['user'] = $info;
 }
 
 //加载模块
@@ -353,7 +350,7 @@ function U($pathinfo, $var = '', $model = 0) {
     }
     if ($model == 0) {
 
-       
+
 
         echo '<script>window.location.href="' . $jumpUrl . '"</script>';
 
@@ -410,7 +407,6 @@ function A($module, $sorce, $ext = '.class.php', $file = 'Controller') {
 /**
  * 验证手机
  */
-
 function checkMobile($phone) {
 
     if (preg_match("/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|189[0-9]{8}$/", $phone)) {
@@ -425,23 +421,23 @@ function checkMobile($phone) {
 /**
  * 将电话 修改为星号
  */
+function phoneStart($phone) {
 
-function phoneStart($phone){
-
-    $new_phone =substr_replace($phone,'*****',3,5);
+    $new_phone = substr_replace($phone, '*****', 3, 5);
 
     return $new_phone;
 }
+
 /**
  * 初始化  调用文件
  */
-function P($name,$ext='Api',$subit='.class.php') {
+function P($name, $ext = 'Api', $subit = '.class.php') {
 
     static $_action = array();
 
 
-    $classname = $name . $ext.$subit;
-    
+    $classname = $name . $ext . $subit;
+
 
 
     $classfile = LIB . MODULE_DIR_NAME . '/Api/' . $classname;
@@ -454,16 +450,16 @@ function P($name,$ext='Api',$subit='.class.php') {
 
         return $_action[$name];
     }
-    
-    
+
+
     if (file_exists($classfile)) {
 
         require_once $classfile;
-        
-        
+
+
         $name = $name . $ext;
-        
-      
+
+
         $class = new $name ();
     } else {
 
@@ -475,9 +471,17 @@ function P($name,$ext='Api',$subit='.class.php') {
     return $class;
 }
 
-
-function funcemail($str)//邮箱正则表达式
-{
- return (preg_match('/^[_.0-9a-z-a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,4}$/',$str))?true:false;
+function isLogin() {
+    if ($_SESSION['userId'] > 0) {
+        
+    } else {
+        header("Location:http://localhost/translationSystem/login.html");
+        die;
+    }
 }
+
+function funcemail($str) {//邮箱正则表达式
+    return (preg_match('/^[_.0-9a-z-a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,4}$/', $str)) ? true : false;
+}
+
 ?>

@@ -30,6 +30,10 @@ class userModel extends ActiveRecord {
         return $this;
     }
 
+    public function updateInfo($id, $data) {
+        return $this->where('id = ' . $id)->save($data);
+    }
+
 }
 
 ?>

@@ -24,6 +24,14 @@ class userCheckModel extends ActiveRecord {
         return $this->vars_all;
     }
 
+    public function deleteInfo($id) {
+        return $this->delete("where id='$id'");
+    }
+
+    public function updateInfo($id, $data) {
+        return $this->where('id = ' . $id)->save($data);
+    }
+
 }
 
 ?>

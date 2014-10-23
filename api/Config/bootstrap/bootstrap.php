@@ -8,7 +8,7 @@ class website {
          * 初始化 加载配置文件
          */
         include_once 'defined.php';
-        
+
         /**
          * 初始化 加载配置文件
          */
@@ -21,13 +21,14 @@ class website {
          * 载入 路由 规则
          */
         include_once 'Dispatcher.class.php';
+
     }
 
     public function run() {
         /**
          * 
          */
-        $file_path = array('Config' => array('DB'),'Model'=>array('DAL','BLL'));
+        $file_path = array('Config' => array('DB'), 'Model' => array('DAL', 'BLL'));
 
 
 
@@ -35,38 +36,30 @@ class website {
 
             include_path_file($fileValue, $fileKey);
         }
-        
-        $this->initialization();
 
-       
+        $this->initialization();
     }
 
-   
-    
-    
-    private function setDatabase(){
-        
-        if(!empty($_ENV['database'])){
-            
+    private function setDatabase() {
+
+        if (!empty($_ENV['database'])) {
+
             $databaseInfo = $_ENV['database'][SOURCE];
-            
-            if(!empty($databaseInfo)){
-                  
+
+            if (!empty($databaseInfo)) {
+
                 defined('DBNAME') or define('DBNAME', $databaseInfo['dbname']);
 
                 defined('USER') or define('USER', $databaseInfo['username']);
 
                 defined('PASSWORD') or define('PASSWORD', $databaseInfo['password']);
 
-                defined('DBHOST') or define('DBHOST',$databaseInfo['host']);
-              
-            } else{
-                
+                defined('DBHOST') or define('DBHOST', $databaseInfo['host']);
+            } else {
+
                 echoErrorCode(106);
             }
-           
         }
-        
     }
 
     private function initialization() {
@@ -75,11 +68,9 @@ class website {
          */
         $url = new Dispatcher();
 
-      
+
 
         R(MODULE_URL, MODULE_DIR_NAME);
-
-        
     }
 
 }

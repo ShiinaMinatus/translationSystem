@@ -20,7 +20,7 @@ defined('apiLog') or define('apiLog', ROOT_DIR . Logs . '/Info/');
 
 defined('SQLLog') or define('SQLLog', ROOT_DIR . Logs . '/SQL/');
 
-defined('PLUGDIR') or define('PLUGDIR', ROOT_DIR .'Plug/');
+defined('PLUGDIR') or define('PLUGDIR', ROOT_DIR . 'Plug/');
 
 defined('LOG_FILE_SIZE') or define('LOG_FILE_SIZE', 2097152); // 日志文件大小限制
 
@@ -32,20 +32,18 @@ defined('URL_MODEL') or define('URL_MODEL', '1'); //url模式 0为默认模式  
 
 
 defined('URL_ROUTE') or define('URL_ROUTE', '0'); //url模式 0为默认模式  1 为 pathinfo模式
-
 //defined('TEMPLATEPUBLIC') or define('TEMPLATEPUBLIC', ROOT_DIR.'Controllers');
 //
 //defined('TEMPLATEURL') or define('TEMPLATEURL','http://localhost/resume_api/Public');
 //
 //defined('TEMPLATEPATH') or define('TEMPLATEPATH','http://localhost/resume_api/template/');
 
-defined('LIB') or define('LIB', ROOT_DIR.'Controllers');
+defined('LIB') or define('LIB', ROOT_DIR . 'Controllers');
 
 defined('URL_PATHINFO_FETCH') or define('URL_PATHINFO_FETCH', 'ORIG_PATH_INFO,REDIRECT_PATH_INFO,REDIRECT_URL');
 /**
  * 关闭报错信息 把报错信息存储到错误文件中
  */
-
 error_reporting(E_ERROR | E_WARNING);
 
 ini_set("display_errors", 1);
@@ -64,5 +62,4 @@ $_ENV['DBPASS'] = '123456';
 $_ENV['DBHOST'] = 'localhost';
 
 $_ENV['DBNAME'] = 'translation';
-
 ?>

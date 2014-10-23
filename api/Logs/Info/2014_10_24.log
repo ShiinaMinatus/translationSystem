@@ -1,0 +1,72 @@
+Oct 24 06:06:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:06:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"id":"1","user_name":"admin","user_password":"123456","user_gender":"1","user_mail":"admin","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 24 06:06:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:06:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 24 06:08:43 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:08:43 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:08:44 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:08:44 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}
+Oct 24 06:08:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:08:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:08:56 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:08:56 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:09:00 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:09:00 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:13:53 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:13:53 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:14:13 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:14:13 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:14:15 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:14:15 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 24 06:14:18 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:14:18 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:14:19 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:14:19 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 24 06:14:20 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:14:20 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 24 06:17:14 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 24 06:17:14 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 24 06:17:20 [ERROR]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 24 06:17:20 [RETURN]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+"code1"
+Oct 24 06:17:59 [ERROR]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 24 06:17:59 [RETURN]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+"code1"
+Oct 24 06:25:31 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 24 06:25:31 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 24 06:25:31 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 24 06:25:31 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+15

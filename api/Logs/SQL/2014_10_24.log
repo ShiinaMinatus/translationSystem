@@ -1,0 +1,36 @@
+Oct 24 06:06:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 24 06:06:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 24 06:08:43 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:08:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 14 
+Oct 24 06:08:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:08:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:09:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:13:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:14:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:14:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 24 06:14:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:14:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 24 06:14:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 24 06:17:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 24 06:17:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='' 
+Oct 24 06:17:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='' 
+Oct 24 06:25:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 24 06:25:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","","1","","","")

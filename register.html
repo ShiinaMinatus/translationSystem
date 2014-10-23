@@ -17,8 +17,8 @@ and open the template in the editor.
         <div style="background-color: skyblue;margin: 0 auto;width: 85%">
             <form action="http://localhost/translationSystem/website/user/userRegister" method="post">
                 <div><span>用户名：</span><input id="userNmae" name="userName" type="text" value="" placeholder="请输入用户名"></div>
-                <div><span>密码：</span><input id="password" name="password" style="margin-left: 16px;" type="text" value="" placeholder="请输入密码"></div>
-                <div><span>重复密码：</span><input id="rePassword" name="rePassword" style="margin-left: 0;" type="text" value="" placeholder="请输入密码"></div>
+                <div><span>密码：</span><input id="password" name="password" style="margin-left: 16px;" type="password" value="" placeholder="请输入密码"></div>
+                <div><span>重复密码：</span><input id="rePassword" name="rePassword" style="margin-left: 0;" type="password" value="" placeholder="请输入密码"></div>
                 <div>
                     <span>性别：</span>
                     <select name="gender">
@@ -26,17 +26,17 @@ and open the template in the editor.
                         <option value="2">女</option>
                     </select>
                 </div>
-                <div><span>电子邮箱：</span><input id="mail" name="mail" style="margin-left: 16px;" type="text" value="" placeholder="请输入邮箱"></div>
-                <div><span>身份证照片：</span>                        
+                <div><span>电子邮箱：</span><input id="mail" name="mail" style="margin-left: 16px;" type="email" value="" placeholder="请输入邮箱"></div>
+                <div>
+                    <span>身份证照片：</span>                        
                     <div>
                         <input id="upload_0" class="inputUploads"  type="file" multiple="multiple" />
                         <input id="uploadUrlCardId" type="hidden" name="cardPhoto" value="">
                     </div>
 
-                    <div id='upload_img1'>
+                    <div id='upload_img1'></div>
 
-
-                    </div></div>
+                </div>
                 <div>
                     <span>英语证书：</span>
                     <div>
@@ -44,16 +44,44 @@ and open the template in the editor.
                         <input id="certificatePhoto" type="hidden" name="certificatePhoto" value="">
                     </div>
 
-                    <div id='upload_img2'>
-
-
-                    </div>
+                    <div id='upload_img2'></div>
                 </div>
-                <div><button>注册</button></div>
+                <div><button id="registerBut">注册</button></div>
             </form>
         </div>
     </body>
     <script>
+        $("#registerBut").click(function () {
+            var alertFlag = false;
+            var alertText = "";
+            if ($("#userNmae").val() == "") {
+                alertFlag = true;
+                alertText += "用户名不能为空";
+            }
+            if ($("#password").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n密码不能为空";
+            }
+            if ($("#password").val() != $("#rePassword").val()) {
+                alertFlag = true;
+                alertText += "\r\n密码与重复密码两次输入不一致";
+            }
+            if ($("#mail").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n邮箱不能为空";
+            }
+            if ($("#uploadUrlCardId").val() == "" || $("#certificatePhoto").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n身份证件与证书必须上传";
+            } else if ($("#upload_img1").html() == "" || $("#upload_img2").html() == "") {
+                alertFlag = true;
+                alertText += "\r\n身份证件与证书必须上传";
+            }
+            if (alertFlag) {
+                alert(alertText);
+                return false;
+            }
+        })
         $('#upload_0').uploadify({
             'swf': '/translationSystem/uploadify/uploadify.swf',
             'uploader': '/translationSystem/uploadify/uploadify_group.php',
@@ -74,7 +102,7 @@ and open the template in the editor.
 
                     if (json['path'] != '') {
 
-
+                        $('#upload_img1').html("");
                         $('#upload_img1').append('<img src="' + json['path'] + '" style="width:200px; height:150px;">')
 
 
@@ -107,7 +135,7 @@ and open the template in the editor.
 
                     if (json['path'] != '') {
 
-
+                        $('#upload_img2').html("");
                         $('#upload_img2').append('<img src="' + json['path'] + '" style="width:200px; height:150px;">')
 
 

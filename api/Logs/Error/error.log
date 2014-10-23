@@ -1,0 +1,48 @@
+[23-Oct-2014 11:32:14 PRC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Duplicate entry '1' for key 'PRIMARY'' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:346
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(326): Db->query('INSERT INTO use...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(92): Db->add(Array, Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userModel.class.php(25): ActiveRecord->add(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(31): userModel->addUserInfo(Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(53): userBLL->addUser('1')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(499): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(80): R('/user/checkUser...', 'User')
+#8 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 346
+[23-Oct-2014 11:54:00 PRC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:346
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(172): Db->query('DELETE FROMuser...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(119): Db->delete(Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php(29): ActiveRecord->delete()
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(36): userCheckModel->deleteInfo('5')
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(56): userBLL->addUser('5')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(499): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstra in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 346
+[23-Oct-2014 11:55:13 PRC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:346
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(172): Db->query('DELETE FROMuser...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(119): Db->delete(Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php(29): ActiveRecord->delete()
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(36): userCheckModel->deleteInfo('1')
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(57): userBLL->addUser(1)
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(499): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 346
+[23-Oct-2014 14:24:09 PRC] PHP Warning:  require(../../Plug/PHPMailer/class.smtp.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php on line 24
+[23-Oct-2014 14:26:00 PRC] PHP Warning:  require(../../Plug/PHPMailer/class.smtp.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 553
+[23-Oct-2014 14:26:17 PRC] PHP Warning:  include(../../Plug/PHPMailer/class.smtp.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 553
+[23-Oct-2014 14:26:17 PRC] PHP Warning:  include(): Failed opening '../../Plug/PHPMailer/class.smtp.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 553
+[23-Oct-2014 14:26:17 PRC] PHP Warning:  require(../../Plug/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 554
+[23-Oct-2014 14:27:04 PRC] PHP Warning:  include(../../Plug/PHPMailer/class.smtp.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 554
+[23-Oct-2014 14:27:04 PRC] PHP Warning:  include(): Failed opening '../../Plug/PHPMailer/class.smtp.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 554
+[23-Oct-2014 14:27:04 PRC] PHP Warning:  require(../../Plug/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 555
+[23-Oct-2014 14:27:28 PRC] PHP Warning:  include(../../Plug/PHPMailer/class.smtp.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 554
+[23-Oct-2014 14:27:28 PRC] PHP Warning:  include(): Failed opening '../../Plug/PHPMailer/class.smtp.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 554
+[23-Oct-2014 14:27:28 PRC] PHP Warning:  require(../../Plug/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php on line 555
+[23-Oct-2014 15:21:27 PRC] PHP Fatal error:  Call to a member function save() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php on line 32
+[23-Oct-2014 15:21:59 PRC] PHP Fatal error:  Call to a member function save() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php on line 32
+[23-Oct-2014 16:35:58 PRC] PHP Fatal error:  Call to a member function where() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 68
+[23-Oct-2014 16:37:29 PRC] PHP Fatal error:  Call to a member function where() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 68
+[23-Oct-2014 16:37:45 PRC] PHP Fatal error:  Call to a member function where() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 68
+[23-Oct-2014 16:38:18 PRC] PHP Fatal error:  Call to a member function where() on a non-object in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 68

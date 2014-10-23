@@ -315,7 +315,7 @@ function arrayToObject($array, $output = 1) {
  * 调用getErrorInfo 函数 获取该错误代码的提示内容
  * 返回json
  */
-function AssemblyJson($jsonArray = null, $jsonType = 0,$type = 'json') {
+function AssemblyJson($jsonArray = null, $jsonType = 0, $type = 'json') {
     $logs = apiLog . date("Y_m_d") . '.log';
 
     if (count($jsonArray) == 0) {
@@ -330,22 +330,21 @@ function AssemblyJson($jsonArray = null, $jsonType = 0,$type = 'json') {
         $jsonArray['error'] = $errorObject;
     }
 
-    if($jsonType != 0){
+    if ($jsonType != 0) {
 
         $encodeJsonEncode = json_encode($jsonArray);
 
         $jsonArray = json_decode($encodeJsonEncode);
 
         $encodeJsonEncode = json_encode(json_filter($jsonArray));
-
-    } else{
+    } else {
 
         $encodeJsonEncode = json_encode($jsonArray);
     }
 
-    
+
     log_write($encodeJsonEncode, $logs, 'RETURN');
-    
+
     switch (strtoupper($type)) {
         case 'JSON' :
             // 返回JSON数据格式到客户端 包含状态信息
@@ -374,11 +373,10 @@ function setErrorCode($errorCode) {
 
         log_write($error_json, $logs, 'ERROR');
 
-        if ($error_array['type'] != 8192 && $error_array['type']!=8) {
+        if ($error_array['type'] != 8192 && $error_array['type'] != 8) {
 
             $_ENV['error_code'] = 100;
-            
-        } else{
+        } else {
 
             $_ENV['error_code'] = $errorCode;
         }
@@ -440,15 +438,15 @@ function transferData($url, $method, $data = '') {
 
 function curlPost($url, $post = null, $options = array()) {
 
-   $ch = curl_init();
-        curl_setopt($ch,CURLOPT_URL,$url);
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
-        curl_setopt($ch,CURLOPT_POST,1);
-        curl_setopt($ch,CURLOPT_POSTFIELDS,$post);
-      $result =   curl_exec($ch);
-        curl_close($ch);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+    $result = curl_exec($ch);
+    curl_close($ch);
 
-        return $result;
+    return $result;
 }
 
 function curlGet($url) {
@@ -475,9 +473,6 @@ function curlGet($url) {
     return $result;
 }
 
-
-
-
 /**
  * 调用模块的操作方法 /user/get_info    模块 + 方法名
  * @param string $url 调用地址
@@ -495,7 +490,7 @@ function R($url, $dir, $vars = array()) {
 
 
     if ($class) {
-        
+
         return call_user_func_array(array(&$class, $action), $vars);
     } else {
         return false;
@@ -519,9 +514,9 @@ function A($module, $dir, $ext = '.class.php', $file = 'Controller') {
 
     $class = ucfirst(substr_replace($class, '', 0, strlen($class_strut[0]) + 1));
 
-  
-    $classfile = LIB.'/'.$dir.'/'.$class. $file . $ext;
-   
+
+    $classfile = LIB . '/' . $dir . '/' . $class . $file . $ext;
+
     if (isset($_action[$module]))
         return $_action[$module];
     if (file_exists($classfile)) {
@@ -535,25 +530,48 @@ function A($module, $dir, $ext = '.class.php', $file = 'Controller') {
     }
 }
 
-
- function filterNull($o) {
-        return $o !== null;
-    }
+function filterNull($o) {
+    return $o !== null;
+}
 
 function json_filter($o) {
-        if (is_object($o)) {
-            
-            $o = (array) $o;
-        }
-        // primitives end the recursion
-        if(!is_array($o)) {
-            return $o;
-        }
-      
-        // filter out null values
-        $filtered = array_filter(array_map('json_filter', $o), 'filterNull');
-        return $filtered;
+    if (is_object($o)) {
+
+        $o = (array) $o;
+    }
+    // primitives end the recursion
+    if (!is_array($o)) {
+        return $o;
     }
 
-    
+    // filter out null values
+    $filtered = array_filter(array_map('json_filter', $o), 'filterNull');
+    return $filtered;
+}
+
+function sendMail($address, $sendUserName, $sendUserPassword, $sendBodyText, $sendTitle) {
+    include ROOT_DIR . '/Plug/PHPMailer/class.smtp.php';
+    require ROOT_DIR . '/Plug/PHPMailer/class.phpmailer.php';
+    date_default_timezone_set('PRC');
+    $mail = new PHPMailer(); //建立邮件发送类
+    $mail->IsSMTP(); // 使用SMTP方式发送
+    $mail->Host = "smtp.qq.com"; // 您的企业邮局域名
+    $mail->SMTPAuth = true; // 启用SMTP验证功能
+    $mail->Username = $sendUserName; // 邮局用户名(请填写完整的email地址)
+    $mail->Password = $sendUserPassword; // 邮局密码
+
+    $mail->From = $sendUserName; //邮件发送者email地址
+    $mail->FromName = "admin";
+    $mail->AddAddress($address, ""); //收件人地址，可以替换成任何想要接收邮件的email信箱,格式是AddAddress("收件人email","收件人姓名")
+//$mail->AddReplyTo("", "");
+//$mail->AddAttachment("/var/tmp/file.tar.gz"); // 添加附件
+//$mail->IsHTML(true); // set email format to HTML //是否使用HTML格式
+
+    $mail->Subject = $sendTitle; //邮件标题
+    $mail->Body = $sendBodyText; //邮件内容
+    $mail->AltBody = "This is the body in plain text for non-HTML mail clients"; //附加信息，可以省略
+
+    $mail->Send();
+}
+
 ?>

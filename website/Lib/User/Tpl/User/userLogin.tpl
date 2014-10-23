@@ -26,4 +26,18 @@
             </div>
         </div>
     </body>
+    <script>
+        $("#loginBut").click(function () {
+            var alertFlag = false;
+            var alertText = "";
+            if ($("#userNmae").val() == "" || $("#password").val() == "") {
+                alertFlag = true;
+                alertText += "用户名或密码不能为空";
+            }
+            if (alertFlag) {
+                alert(alertText);
+                return false;
+            }
+        })
+    </script>
 </html>

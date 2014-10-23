@@ -17,6 +17,14 @@ class UserAction extends Action {
         if ($reValue == 1) {
             $this->display();
         } else {
+
+            $_SESSION["userId"] = $reValue['id'];
+            $_SESSION["userName"] = $reValue['user_name'];
+            $postData["id"] = $reValue['id'];
+            $reAuthority = transferData("http://localhost/translationSystem/api/user/userAuthority", "post", $postData);
+            $reAuthority = json_decode($reAuthority, true);
+            isLogin();
+            $this->assign("authority", $reAuthority);
             $this->display('userManger');
         }
     }
@@ -38,6 +46,7 @@ class UserAction extends Action {
                 $returnValue = 2;
             }
         }
+
         $this->assign("addFruit", $returnValue);
         $this->display();
     }
@@ -47,6 +56,94 @@ class UserAction extends Action {
         $reValue = json_decode($reValue, true);
         $this->assign("checkUser", $reValue);
         $this->display();
+    }
+
+    function singleCheckUserInfo() {
+        if (empty($_GET["userId"])) {
+            $reValue = "error";
+        } else {
+            $userId = $_GET["userId"];
+            $data["id"] = $userId;
+            $reValue = transferData("http://localhost/translationSystem/api/user/getCheckUserById", "post", $data);
+            $reValue = json_decode($reValue, true);
+        }
+        $this->assign("checkUser", $reValue);
+        $this->display();
+    }
+
+    function addUser() {
+        if (empty($_GET["userId"])) {
+            $reValue = "error2";
+            $this->assign("errorReturn", $reValue);
+            $this->display('errorPage');
+        } else {
+            $userId = $_GET["userId"];
+            $data["id"] = $userId;
+            $reValue = transferData("http://localhost/translationSystem/api/user/checkUserToUser", "post", $data);
+            $reValue = json_decode($reValue, true);
+            $returnValue = transferData("http://localhost/translationSystem/api/user/checkUserAll", "post", "");
+            $returnValue = json_decode($returnValue, true);
+            $this->assign("checkUser", $returnValue);
+            $this->display('adminManger');
+        }
+    }
+
+    function checkUserActivation() {
+        $data["id"] = $_GET["userId"];
+        $reValue = transferData("http://localhost/translationSystem/api/user/checkUserActivation", "post", $data);
+        $reValue = json_decode($reValue, true);
+        if ($reValue) {
+            $this->assign("activationValue", "恭喜你账号激活成功，审核结果将会通过邮件发送至你的注册邮箱");
+        } else {
+            $this->assign("activationValue", "账号激活失败，请联系管理员");
+        }
+        $this->display();
+    }
+
+    function rejectUser() {
+        $reValue = transferData("http://localhost/translationSystem/api/user/rejectCheckUser", "post", $_POST);
+        $reValue = json_decode($reValue, true);
+        if ($reValue) {
+            $returnValue = transferData("http://localhost/translationSystem/api/user/checkUserAll", "post", "");
+            $returnValue = json_decode($returnValue, true);
+            $this->assign("checkUser", $returnValue);
+            $this->assign("printMessage", "您已经成功驳回邮箱为" . $_POST['mail'] . ",ID为" . $_POST['id'] . " 的用户的审核申请");
+            $this->display('adminManger');
+        } else {
+            $this->assign("activationValue", "驳回失败，请联系管理员");
+            $this->display('checkUserActivation');
+        }
+    }
+
+    function userSetting() {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            isLogin();
+            $data["oldPassword"] = $_POST["oldPassword"];
+            $data["newPassword"] = $_POST["newPassword"];
+            $data["id"] = $_SESSION["userId"];
+            $returnValue = transferData("http://localhost/translationSystem/api/user/passwordChange", "post", $data);
+            $returnValue = json_decode($returnValue, true);
+            if ($returnValue == "code1") {
+                $errorMessage = "密码错误";
+            } else if ($returnValue == "code2") {
+                $errorMessage = "修改成功";
+            } else {
+                $errorMessage = "发生未知错误";
+            }
+            $this->assign("errorMessag", $errorMessage);
+            $this->display();
+        } else {
+            $this->display();
+        }
+    }
+
+    function managerPage() {
+        isLogin();
+        $postData["id"] = $_SESSION['userId'];
+        $reAuthority = transferData("http://localhost/translationSystem/api/user/userAuthority", "post", $postData);
+        $reAuthority = json_decode($reAuthority, true);
+        $this->assign("authority", $reAuthority);
+        $this->display('userManger');
     }
 
 }

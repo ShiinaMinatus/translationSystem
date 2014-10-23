@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+Sep 26 10:56:45 [SQL]_null_0.0.0.0_/AMC/user/deleteShopCart/?shop_id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND shop_cart_id = 1     
+Sep 26 10:56:45 [SQL]_null_0.0.0.0_/AMC/user/deleteShopCart/?shop_id=1
+DELETE FROM AMC.shop_cart WHERE 1 AND shop_cart_id = 1
+=======
+Sep 26 10:50:25 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 26 10:50:28 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 26 10:51:22 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+>>>>>>> c6e9a7b0434af6bc8a87cfa705d746f96e11c428

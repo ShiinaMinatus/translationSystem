@@ -1,0 +1,154 @@
+Oct 22 12:34:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 12:34:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=12345&username=111
+SELECT * FROM user  WHERE user_name='' and user_password='12345' 
+Oct 22 12:35:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&username=admin
+SELECT * FROM user  WHERE user_name='' and user_password='123456' 
+Oct 22 12:36:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&username=admin
+SELECT * FROM user  WHERE user_name='' and user_password='123456' 
+Oct 22 12:36:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 13:50:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:27:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:29:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:06 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:06 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:06 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:30:07 [SQL]_null_127.0.0.1_/translationSystem/api/user/userLogin?password=123456&userName=admin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:31:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='1234' and user_password='23' 
+Oct 22 14:31:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='1234' and user_password='' 
+Oct 22 14:31:52 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='1234' and user_password='33123' 
+Oct 22 14:32:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='12343213' and user_password='31231' 
+Oct 22 14:33:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:34:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 14:36:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:38:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:39:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:39:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:40:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:40:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:40:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:40:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:41:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='' 
+Oct 22 14:48:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 14:48:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='31231' 
+Oct 22 15:03:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='3123' 
+Oct 22 15:03:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:03:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:03:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:04:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:04:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:05:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:05:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='3123131' 
+Oct 22 15:05:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='' and user_password='' 
+Oct 22 15:30:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 15:31:17 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='32131' and user_password='32131' 
+Oct 22 15:31:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 15:32:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 15:32:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 15:32:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_name='admin' and user_password='123456' 
+Oct 22 17:48:32 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("xij1111","123456","1","xij1111@gmail.com","1413970824.jpg","1413970826.jpg")
+Oct 22 17:48:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("xij1111","123456","1","xij1111@gmail.com","1413970824.jpg","1413970826.jpg")
+Oct 22 17:58:32 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("xij1111","123456","1","xij1111@gmail.com","1413971905.jpg","1413971908.jpg")
+Oct 22 17:59:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("xij1111","123456","1","xij1111@gmail.com","1413971905.jpg","1413971908.jpg")
+Oct 22 18:17:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 22 18:17:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 22 18:17:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("xij1111","123456","1","xij1111@gmail.com","1413971905.jpg","1413971908.jpg")
+Oct 22 18:18:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 22 20:59:51 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:01:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:01:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:02:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:02:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE 1=1 
+Oct 22 21:02:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:04:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:06:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 22 21:06:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  

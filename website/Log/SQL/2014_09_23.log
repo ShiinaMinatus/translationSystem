@@ -1,0 +1,160 @@
+Sep 23 13:19:30 [SQL]_null_0.0.0.0_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "jinglingchang@126.com"     
+Sep 23 13:19:30 [SQL]__0.0.0.0_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('jinglingchang@126.com','e41186ee8478c63cd288252f1c5fac95','asdasfas1234','1411449570','1411449570')
+Sep 23 13:20:49 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "jinglingchang@126.com" and user_md5_password like "e41186ee8478c63cd288252f1c5fac95"     
+Sep 23 15:08:07 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:08:22 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:08:53 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:11:56 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:12:04 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:16:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:16:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:16:45 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:16:45 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:17:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:17:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:19:08 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:19:08 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:19:20 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:19:20 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:19:37 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:19:37 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,10 
+Sep 23 15:20:02 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:20:02 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:20:24 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:20:24 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:20:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:20:32 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:21:00 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:21:00 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:21:10 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:21:11 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:21:42 [SQL]_null_0.0.0.0_/AMC/commodity/index/page=2&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:21:42 [SQL]_null_0.0.0.0_/AMC/commodity/index/page=2&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:22:04 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:22:04 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:22:25 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:22:25 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:22:27 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:22:27 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 1,1 
+Sep 23 15:22:30 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:22:30 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 2,1 
+Sep 23 15:22:41 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:22:41 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 2,1 
+Sep 23 15:24:17 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=-1&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:24:17 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=-1&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:24:19 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:24:19 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 1,1 
+Sep 23 15:24:20 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:24:20 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3&
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 2,1 
+Sep 23 15:25:28 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:25:28 [SQL]_null_0.0.0.0_/AMC/commodity/index
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 0,1 
+Sep 23 15:25:30 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:25:30 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=2
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 1,1 
+Sep 23 15:25:31 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3
+SELECT * FROM AMC.commodity  WHERE 1      
+Sep 23 15:25:31 [SQL]_null_0.0.0.0_/AMC/commodity/index?page=3
+SELECT * FROM AMC.commodity  WHERE 1      LIMIT 2,1 
+Sep 23 15:55:44 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 23 15:55:44 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 23 15:55:44 [SQL]__0.0.0.0_/AMC/commodity/addCart?id=1
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('1','1','1','1411458944')
+Sep 23 15:55:54 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 23 15:55:54 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 23 15:55:54 [SQL]__0.0.0.0_/AMC/commodity/addCart?id=1
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('1','1','1','1411458954')
+Sep 23 15:56:25 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 23 15:56:25 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 23 15:56:25 [SQL]__0.0.0.0_/AMC/commodity/addCart?id=1
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('1','1','1','1411458985')
+Sep 23 15:57:00 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 23 15:57:00 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 23 15:57:00 [SQL]__0.0.0.0_/AMC/commodity/addCart?id=1
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('1','1','1','1411459020')
+Sep 23 15:57:11 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 23 15:57:11 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 23 15:57:11 [SQL]_null_0.0.0.0_/AMC/commodity/addCart?id=1
+UPDATE AMC.shop_cart SET commodity_number='2' WHERE 1  AND commodity_id = 1 and shop_status = 0
+Sep 23 16:11:24 [SQL]__0.0.0.0_/AMC/commodity/shopCartAccount?shop_id=1
+insert into AMC.order (order_code,order_time,user_id) values('201409230411241','1411459884','1')
+Sep 23 16:11:24 [SQL]__0.0.0.0_/AMC/commodity/shopCartAccount?shop_id=1
+insert into AMC.order_detail (order_code,commodity_id) values('201409230411241','1')
+Sep 23 16:12:49 [SQL]__0.0.0.0_/AMC/commodity/shopCartAccount?shop_id=1
+insert into AMC.order (order_code,order_time,user_id) values('2014092304124988','1411459969','1')
+Sep 23 16:12:49 [SQL]__0.0.0.0_/AMC/commodity/shopCartAccount?shop_id=1
+insert into AMC.order_detail (order_code,commodity_id) values('2014092304124988','1')
+Sep 23 17:59:56 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "81dc9bdb52d04dc20036dbd8313ed055"     
+Sep 23 18:01:37 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "71fce7d439aed4baf4ce200749a13213"     
+Sep 23 18:02:05 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "a5b025d82b184f116137f1cdd3f9afd3"     
+Sep 23 18:02:09 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "a5b025d82b184f116137f1cdd3f9afd3"     
+Sep 23 18:04:29 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com"     
+Sep 23 18:04:29 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('372260652@qq.com','e10adc3949ba59abbe56e057f20f883e','123456','1411466669','1411466669')
+Sep 23 18:04:41 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     

@@ -1,0 +1,24 @@
+Oct 23 09:53:32 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":103}
+Oct 23 09:53:32 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 23 09:53:32 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 23 09:53:32 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+6
+Oct 23 09:53:38 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":91}
+Oct 23 09:53:38 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"1","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413970824.jpg","user_certificate_photo":"1413970826.jpg","user_mail_type":"0"},{"id":"5","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413971905.jpg","user_certificate_photo":"1413971908.jpg","user_mail_type":"0"},{"id":"6","user_name":"","user_password":"","user_gender":"1","user_mail":"","user_id_card_photo":"","user_certificate_photo":"","user_mail_type":"0"}]
+Oct 23 09:53:38 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":91}
+Oct 23 09:53:38 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"1","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413970824.jpg","user_certificate_photo":"1413970826.jpg","user_mail_type":"0"},{"id":"5","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413971905.jpg","user_certificate_photo":"1413971908.jpg","user_mail_type":"0"},{"id":"6","user_name":"","user_password":"","user_gender":"1","user_mail":"","user_id_card_photo":"","user_certificate_photo":"","user_mail_type":"0"}]
+Oct 23 09:54:26 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":91}
+Oct 23 09:54:26 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"1","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413970824.jpg","user_certificate_photo":"1413970826.jpg","user_mail_type":"0"},{"id":"5","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413971905.jpg","user_certificate_photo":"1413971908.jpg","user_mail_type":"0"},{"id":"6","user_name":"","user_password":"","user_gender":"1","user_mail":"","user_id_card_photo":"","user_certificate_photo":"","user_mail_type":"0"}]
+Oct 23 09:54:37 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":91}
+Oct 23 09:54:37 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"1","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413970824.jpg","user_certificate_photo":"1413970826.jpg","user_mail_type":"0"},{"id":"5","user_name":"xij1111","user_password":"123456","user_gender":"1","user_mail":"xij1111@gmail.com","user_id_card_photo":"1413971905.jpg","user_certificate_photo":"1413971908.jpg","user_mail_type":"0"},{"id":"6","user_name":"","user_password":"","user_gender":"1","user_mail":"","user_id_card_photo":"","user_certificate_photo":"","user_mail_type":"0"}]

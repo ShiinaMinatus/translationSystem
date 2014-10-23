@@ -1,0 +1,4 @@
+Sep 29 11:42:37 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "jinglingchang@126.com" and user_md5_password like "e0ab3b7b7d4c3ba78797075ba05adef8"     
+Sep 29 11:43:00 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "jinglingchang@126.com" and user_md5_password like "e41186ee8478c63cd288252f1c5fac95"     

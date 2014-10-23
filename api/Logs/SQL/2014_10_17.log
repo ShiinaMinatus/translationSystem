@@ -1,0 +1,298 @@
+Oct 17 15:42:43 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:42:43 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry  WHERE industry_id = 1 
+Oct 17 15:43:25 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:48:33 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:52:01 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:52:01 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_hot  WHERE industry_type_id = 1 
+Oct 17 15:53:12 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:53:12 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 15:54:54 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:54:54 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 15:54:54 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 15:57:51 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 15:57:51 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 15:57:51 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 15:57:51 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:02 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:27 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:34 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:01:48 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:02:06 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:02:06 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:02:06 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:02:06 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:02:20 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:02:36 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:02:55 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:03:04 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:03:31 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:03:31 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:03:31 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:03:31 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:03:59 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:03:59 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:03:59 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:04:19 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:04:19 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:04:19 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position  WHERE position_type = 2 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:05:45 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major  WHERE major_id = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM industry_type  WHERE industry_type_id = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM position_type  WHERE position_big_type = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT position_name FROM position  WHERE position_type = 1 and position_hot = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT position_name FROM position  WHERE position_type = 2 and position_hot = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM major_detail  WHERE major_detail_id = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 1 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 2 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 3 
+Oct 17 16:08:30 [SQL]_null_0.0.0.0_/resume_api/resume/get_sex_industry
+SELECT * FROM interest  WHERE interest_id = 4 

@@ -1,0 +1,4 @@
+Oct 09 10:44:41 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 09 10:44:41 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u5973"}

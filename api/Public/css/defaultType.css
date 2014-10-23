@@ -1,0 +1,64 @@
+
+.photoTitle{
+    height: 40px;
+}
+.titleBlock{
+    background-color: #3688c9;
+    width: 4px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+.titleWord{
+    margin-left: 5px;
+    margin-top:11px;
+    line-height: 10px;
+}
+.titleChineseWord{
+    font-size: 17px;
+    font-family: 黑体;
+    color: black;
+}
+.titleEnglishWord{
+    font-size: 10px;
+    font-family: Arial;
+    color: #348bcc;
+
+}
+.headBlock{
+    background-color: #3688c9;
+    width: 4px;
+    height: 20px;
+}
+.headTitleBlock{
+    background-color: #999;
+    height: 20px;
+    width: 92%;
+    margin-left: 5px;
+    color: white;
+    font-size: 12px;
+    line-height:20px;
+    padding-left: 8px;
+}
+.TableTextArea{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    line-height:20px;
+}
+.tableStyle{
+    color: #6d6d6d;
+}
+.lineList1{
+    width: 50%;
+}
+.lineList2{
+    margin-left: 0px;
+}
+.itemBlock{
+    height: 15px;
+}
+.awardsMargin{
+    height: 10px;
+}
+

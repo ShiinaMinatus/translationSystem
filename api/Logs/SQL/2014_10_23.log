@@ -1,0 +1,12 @@
+Oct 23 09:53:32 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 23 09:53:32 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","","1","","","")
+Oct 23 09:53:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 23 09:53:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 23 09:54:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  
+Oct 23 09:54:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  

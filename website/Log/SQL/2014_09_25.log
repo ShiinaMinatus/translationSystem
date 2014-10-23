@@ -1,0 +1,44 @@
+Sep 25 14:07:30 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:07:30 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 2 and shop_status = 0     
+Sep 25 14:07:30 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+UPDATE AMC.shop_cart SET commodity_number='4' WHERE 1  AND commodity_id = 2 and shop_status = 0
+Sep 25 14:07:40 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 25 14:08:09 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:08:10 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:08:11 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:08:13 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:13 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:13 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:13 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:14 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:14 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:14 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 25 14:08:18 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 25 14:08:19 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 25 14:08:19 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 25 14:08:19 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 25 14:08:21 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:08:21 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 14:09:03 [SQL]_null_0.0.0.0_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 25 15:01:25 [SQL]_null_127.0.0.1_/AMC/home/index
+SELECT * FROM AMC.user  WHERE 1      

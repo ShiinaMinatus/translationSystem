@@ -1,0 +1,276 @@
+Sep 24 10:43:07 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "111@qq.com"     
+Sep 24 10:43:07 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('111@qq.com','bcbe3365e6ac95ea2c0343a2395834dd','222','1411526587','1411526587')
+Sep 24 10:45:14 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "1112@qq.com"     
+Sep 24 10:45:14 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('1112@qq.com','b6d767d2f8ed5d21a44b0e5886680cb9','22','1411526714','1411526714')
+Sep 24 10:45:53 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "22@qq.com"     
+Sep 24 10:45:53 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('22@qq.com','b59c67bf196a4758191e42f76670ceba','1111','1411526753','1411526753')
+Sep 24 10:48:41 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "202cb962ac59075b964b07152d234b70"     
+Sep 24 10:58:48 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "23@qq.com"     
+Sep 24 10:58:48 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('23@qq.com','b6d767d2f8ed5d21a44b0e5886680cb9','22','1411527528','1411527528')
+Sep 24 10:58:48 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "23@qq.com"     
+Sep 24 10:58:53 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "23ss@qq.com"     
+Sep 24 10:58:53 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('23ss@qq.com','b6d767d2f8ed5d21a44b0e5886680cb9','22','1411527533','1411527533')
+Sep 24 10:59:21 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "111@qq.com"     
+Sep 24 10:59:30 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "112311@qq.com"     
+Sep 24 10:59:30 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('112311@qq.com','8f60c8102d29fcd525162d02eed4566b','ssss','1411527570','1411527570')
+Sep 24 10:59:57 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "112311@qq.com" and user_md5_password like "af15d5fdacd5fdfea300e88a8e253e82"     
+Sep 24 11:05:33 [SQL]_null_127.0.0.1_/AMC/user/registerAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com"     
+Sep 24 11:05:33 [SQL]__127.0.0.1_/AMC/user/registerAjax
+insert into AMC.user (user_email,user_md5_password,user_password,user_login_time,user_register_time) values('372260652@qq.com','e10adc3949ba59abbe56e057f20f883e','123456','1411527933','1411527933')
+Sep 24 11:05:35 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 11:05:45 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 11:07:00 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 11:08:39 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:04:27 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "c20ad4d76fe97759aa27a0c99bff6710"     
+Sep 24 14:04:35 [SQL]_null_0.0.0.0_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:05:11 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:06:21 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:06:56 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:07:55 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:08:09 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "121311414@qq.com" and user_md5_password like "6512bd43d9caa6e02c990b0a82652dca"     
+Sep 24 14:17:50 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 14:41:54 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  WHERE 1  AND user_id = 1     
+Sep 24 14:50:36 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:51:10 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:54:08 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:54:22 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:54:36 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:58:40 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 14:59:45 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:00:17 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:00:25 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:00:27 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:00:59 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:05:26 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:07:02 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 1     
+Sep 24 15:10:33 [SQL]_null_0.0.0.0_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:01 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:02 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:04 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:40 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:41 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:11:43 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:14:21 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 15:14:24 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:22:19 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 24 15:22:19 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 24 15:22:19 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+UPDATE AMC.shop_cart SET commodity_number='3' WHERE 1  AND commodity_id = 1 and shop_status = 0
+Sep 24 15:22:24 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 24 15:22:24 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 2 and shop_status = 0     
+Sep 24 15:22:24 [SQL]__127.0.0.1_/AMC/Commodity/addCart
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('9','2','1','1411543344')
+Sep 24 15:22:29 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 3     
+Sep 24 15:22:29 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 3 and shop_status = 0     
+Sep 24 15:22:29 [SQL]__127.0.0.1_/AMC/Commodity/addCart
+insert into AMC.shop_cart (user_id,commodity_id,commodity_number,create_time) values('9','3','1','1411543349')
+Sep 24 15:23:14 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 1     
+Sep 24 15:23:14 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 1 and shop_status = 0     
+Sep 24 15:23:14 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+UPDATE AMC.shop_cart SET commodity_number='4' WHERE 1  AND commodity_id = 1 and shop_status = 0
+Sep 24 15:23:17 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 24 15:23:17 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 2 and shop_status = 0     
+Sep 24 15:23:17 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+UPDATE AMC.shop_cart SET commodity_number='2' WHERE 1  AND commodity_id = 2 and shop_status = 0
+Sep 24 15:24:29 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:24:31 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:21 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:22 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:23 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:23 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:24 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:54 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:28:55 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:29:52 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:29:53 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:16 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:39 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:40 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:41 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:41 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:30:41 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:31:33 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:31:42 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:31:53 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:32:26 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 15:32:28 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:33:08 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:33:20 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:33:43 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 15:33:45 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:34:10 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:35:18 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:36:50 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:37:14 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:44:14 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:47:24 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:48:04 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:48:56 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:50:11 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:51:04 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:51:45 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:52:27 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:52:29 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:52:29 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:53:15 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:56:07 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:56:30 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:56:48 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:57:16 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:58:31 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 15:58:39 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:01:23 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:01:57 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:03:02 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:03:53 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:04:37 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:05:28 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:05:47 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:06:12 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:08:23 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:09:05 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:09:13 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:11:10 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:12:02 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:12:26 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:12:41 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:23:26 [SQL]_null_127.0.0.1_/AMC/user/loginAjax
+SELECT * FROM AMC.user  WHERE 1  AND user_email like "372260652@qq.com" and user_md5_password like "e10adc3949ba59abbe56e057f20f883e"     
+Sep 24 16:23:28 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 16:25:30 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 17:04:58 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     
+Sep 24 17:05:10 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.commodity  WHERE 1  AND commodity_id = 2     
+Sep 24 17:05:10 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+SELECT * FROM AMC.shop_cart  WHERE 1  AND commodity_id = 2 and shop_status = 0     
+Sep 24 17:05:10 [SQL]_null_127.0.0.1_/AMC/Commodity/addCart
+UPDATE AMC.shop_cart SET commodity_number='3' WHERE 1  AND commodity_id = 2 and shop_status = 0
+Sep 24 17:05:30 [SQL]_null_127.0.0.1_/AMC/user/userCenter
+SELECT * FROM AMC.shop_cart  LEFT JOIN commodity ON commodity.commodity_id = shop_cart.commodity_id  WHERE 1  AND user_id = 9     

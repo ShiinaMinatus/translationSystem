@@ -1,0 +1,20 @@
+Oct 08 10:09:20 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 08 10:09:20 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u5973"}
+Oct 08 11:36:20 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 08 11:36:20 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u5973"}
+Oct 08 11:39:51 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 08 11:39:51 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u5973"}
+Oct 08 11:48:57 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 08 11:48:57 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u7537"}
+Oct 08 11:54:31 [ERROR]_null_192.168.0.116_/resume_api/resume/get_data?
+{"type":8,"message":"Undefined variable: data","file":"\/web\/www\/resume_api\/Config\/DB\/Db.class.php","line":86}
+Oct 08 11:54:31 [RETURN]_null_192.168.0.116_/resume_api/resume/get_data?
+{"industry":["\u8f6f\u4ef6\u5de5\u7a0b\u5e08","\u878d\u8d44\/\u8d44\u672c\u8fd0\u4f5c"],"sex":"\u7537"}

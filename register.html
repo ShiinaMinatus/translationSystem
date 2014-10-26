@@ -27,6 +27,7 @@ and open the template in the editor.
                     </select>
                 </div>
                 <div><span>电子邮箱：</span><input id="mail" name="mail" style="margin-left: 16px;" type="email" value="" placeholder="请输入邮箱"></div>
+                <div><span>手机号码：</span><input id="phone" name="phone" style="margin-left: 16px;" type="tel" value="" placeholder="请输入手机号码"></div>
                 <div>
                     <span>身份证照片：</span>                        
                     <div>
@@ -67,6 +68,10 @@ and open the template in the editor.
                 alertText += "\r\n密码与重复密码两次输入不一致";
             }
             if ($("#mail").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n邮箱不能为空";
+            }
+            if ($("#phone").val() == "") {
                 alertFlag = true;
                 alertText += "\r\n邮箱不能为空";
             }

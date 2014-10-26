@@ -21,10 +21,12 @@ class UserAction extends Action {
             $_SESSION["userId"] = $reValue['id'];
             $_SESSION["userName"] = $reValue['user_name'];
             $postData["id"] = $reValue['id'];
+            var_dump($reValue);
             $reAuthority = transferData("http://localhost/translationSystem/api/user/userAuthority", "post", $postData);
             $reAuthority = json_decode($reAuthority, true);
             isLogin();
             $this->assign("authority", $reAuthority);
+            $this->assign("userInfo", $reValue);
             $this->display('userManger');
         }
     }
@@ -144,6 +146,109 @@ class UserAction extends Action {
         $reAuthority = json_decode($reAuthority, true);
         $this->assign("authority", $reAuthority);
         $this->display('userManger');
+    }
+
+    function findPasswordByPhone() {
+
+        $this->display();
+    }
+
+    function findPasswordByMail() {
+        $this->display();
+    }
+
+    function checkUserPhone() {
+        $postData['phone'] = $_REQUEST['phone'];
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/isSetPhone", "post", $postData);
+        $rePhoneType = json_decode($rePhoneType, true);
+        $returnValue = "";
+        if ($rePhoneType) {
+            $returnValue = "true";
+            $PhoneType = transferData("http://localhost/translationSystem/api/user/getCheckCode", "post", $postData);
+            $PhoneType = json_decode($rePhoneType, true);
+        } else {
+            $returnValue = "false";
+        }
+        echo $returnValue;
+    }
+
+    function checkUserMail() {
+        $postData['mail'] = $_REQUEST['mail'];
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/isSetMail", "post", $postData);
+        $rePhoneType = json_decode($rePhoneType, true);
+        $returnValue = "";
+        if ($rePhoneType) {
+            $returnValue = "true";
+        } else {
+            $returnValue = "false";
+        }
+        echo $returnValue;
+    }
+
+    function checkCode() {
+        $postData['phone'] = $_REQUEST['phone'];
+        $postData['code'] = $_REQUEST['code'];
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/checkCodeAndPhone", "post", $postData);
+        $rePhoneType = json_decode($rePhoneType, true);
+        $returnValue = "";
+        if ($rePhoneType) {
+            $returnValue = "true";
+        } else {
+            $returnValue = "false";
+        }
+        echo $returnValue;
+    }
+
+    function setNewPassWordByPhone() {
+        $postData['phone'] = $_POST['phone'];
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/getUserMessageByPhone", "post", $postData);
+        $rePhoneType = json_decode($rePhoneType, true);
+        $this->assign("userId", $rePhoneType ["id"]);
+        $this->assign("userPassword", $rePhoneType ["user_password"]);
+        $this->display('setNewPassWord');
+    }
+
+    function setNewPassWordByMail() {
+        $postData['mail'] = $_REQUEST['mail'];
+
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/getUserMessageByMail", "post", $postData);
+
+        $rePhoneType = json_decode($rePhoneType, true);
+        var_dump($_REQUEST);
+        $this->assign("userId", $rePhoneType ["id"]);
+        $this->assign("userPassword", $rePhoneType ["user_password"]);
+        $this->display('setNewPassWord');
+    }
+
+    function sendResertPasswrodMail() {
+        $postData['mail'] = $_REQUEST['mail'];
+        $text = "点击下方连接以进入重置密码界面<br>" . "<a href='http://localhost/translationSystem/website/user/setNewPassWordByMail?mail=" . $_REQUEST['mail'] . "'>http://localhost/translationSystem/website/user/setNewPassWordByMail?mail=" . $_REQUEST['mail'] . "</a>";
+        $postData['mainText'] = $text;
+        $rePhoneType = transferData("http://localhost/translationSystem/api/user/postResetPassWordMail", "post", $postData);
+        $rePhoneType = json_decode($rePhoneType, true);
+        $this->display();
+    }
+
+    function changeUserPassWord() {
+        $data["oldPassword"] = $_POST["oldPassword"];
+        $data["newPassword"] = $_POST["newPassword"];
+        $data["id"] = $_POST["id"];
+
+        $returnValue = transferData("http://localhost/translationSystem/api/user/passwordChange", "post", $data);
+        $returnValue = json_decode($returnValue, true);
+        if ($returnValue == "code1") {
+            $errorMessage = "密码错误";
+        } else if ($returnValue == "code2") {
+            $errorMessage = "修改成功,<a href='http://localhost/translationSystem/login.html'>返回</a>登入界面";
+        } else {
+            $errorMessage = "发生未知错误";
+        }
+        $this->assign("errorMessag", $errorMessage);
+        $this->display();
+    }
+
+    function findPasswrd() {
+        $this->display();
     }
 
 }

@@ -1,6 +1,7 @@
 <?php
 
 date_default_timezone_set('PRC');
+date_default_timezone_set('Asia/Shanghai');
 /**
  * 路径定义
  */

@@ -11,7 +11,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <form method="post" action="http://localhost/translationSystem/website/user/findPasswordByPhone" id="phoneForm">
+            <div><span>请输入手机验证码：</span><input id="checkCode" name="checkCode" value="" type="tel"></div>
+
+        </form>
+        <button id="checkPhoneNumber">
+            确定
+        </button>
     </body>
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
 </html>

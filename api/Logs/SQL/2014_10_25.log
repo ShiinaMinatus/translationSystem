@@ -1,0 +1,480 @@
+Oct 25 13:28:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:29:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:29:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 13:29:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+INSERT INTO check_code (`check_code`,`create_time`,`user_phone`) VALUES ("6962","1414214959","13955555555")
+Oct 25 13:31:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:31:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+INSERT INTO check_code (`check_code`,`create_time`,`user_phone`) VALUES ("4027","1414215061","13951555555")
+Oct 25 13:31:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:31:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 1015,create_time = 1414215091 WHERE user_phone = 13951555555
+Oct 25 13:31:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:31:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2134,create_time = 1414215093 WHERE user_phone = 13951555555
+Oct 25 13:31:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:31:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7989,create_time = 1414215101 WHERE user_phone = 13951555555
+Oct 25 13:31:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:31:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 0467,create_time = 1414215110 WHERE user_phone = 13951555555
+Oct 25 13:33:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2363,create_time = 1414215190 WHERE user_phone = 13951555555
+Oct 25 13:33:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 6684,create_time = 1414215190 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3014,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7572,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7730,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 9707,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 4178,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3159,create_time = 1414215191 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7125,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3494,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8450,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8300,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3739,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 6765,create_time = 1414215192 WHERE user_phone = 13951555555
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8850,create_time = 1414215193 WHERE user_phone = 13951555555
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 4235,create_time = 1414215193 WHERE user_phone = 13951555555
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2471,create_time = 1414215193 WHERE user_phone = 13951555555
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8598,create_time = 1414215193 WHERE user_phone = 13951555555
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3279,create_time = 1414215193 WHERE user_phone = 13951555555
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8633,create_time = 1414215194 WHERE user_phone = 13951555555
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 6132,create_time = 1414215194 WHERE user_phone = 13951555555
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 1005,create_time = 1414215194 WHERE user_phone = 13951555555
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2827,create_time = 1414215194 WHERE user_phone = 13951555555
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3604,create_time = 1414215194 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 5011,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 3186,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 5482,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7249,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 8918,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 4730,create_time = 1414215195 WHERE user_phone = 13951555555
+Oct 25 13:33:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13951555555 
+Oct 25 13:33:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 4277,create_time = 1414215196 WHERE user_phone = 13951555555
+Oct 25 13:43:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:44:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:48:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:49:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:49:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:50:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 25 13:50:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij111231@gmail.com' 
+Oct 25 13:50:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("admin","123456","1","xij111231@gmail.com","1414216226.jpg","1414216229.jpg")
+Oct 25 13:51:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:51:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:51:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:52:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:52:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:53:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:54:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:55:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:55:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13951555555' 
+Oct 25 13:56:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:57:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:57:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='139555555551' 
+Oct 25 13:57:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='139555555551' 
+Oct 25 13:57:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='139555555551' 
+Oct 25 13:57:43 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:58:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:58:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:58:51 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:59:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 13:59:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='139555555551' 
+Oct 25 14:07:17 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='123444' 
+Oct 25 14:07:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='123444' 
+Oct 25 14:08:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='3123123' 
+Oct 25 14:08:19 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 14:12:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='1234324234' 
+Oct 25 14:12:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='fwer dfwdf' 
+Oct 25 14:15:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='31241243124' 
+Oct 25 14:15:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:13:46 [SQL]_null_127.0.0.1_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='' 
+Oct 25 15:14:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:14:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:14:50 [SQL]_null_127.0.0.1_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:15:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='312313' 
+Oct 25 15:15:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:15:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:15:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:15:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 15:15:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 1344,create_time = 1414221344 WHERE user_phone = 13955555555
+Oct 25 15:15:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 15:15:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 1720,create_time = 1414221350 WHERE user_phone = 13955555555
+Oct 25 15:17:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:18:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:18:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:18:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:20:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:21:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:21:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:21:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:21:43 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:22:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:22:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:22:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:22:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:24:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:24:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:24:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:24:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:24:28 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:24:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:24:51 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:29:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='1720' 
+Oct 25 15:31:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='1720' 
+Oct 25 15:31:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955551555' and check_code='1720' 
+Oct 25 15:31:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 15:31:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 15:32:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:32:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:32:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='1720' 
+Oct 25 15:36:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 15:39:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:40:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='1720' 
+Oct 25 15:40:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 15:40:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 9338,create_time = 1414222804 WHERE user_phone = 13955555555
+Oct 25 15:40:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 15:40:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2409,create_time = 1414222821 WHERE user_phone = 13955555555
+Oct 25 15:40:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:40:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='2409' 
+Oct 25 15:40:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='' 
+Oct 25 15:41:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='' 
+Oct 25 15:42:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:43:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:55:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:57:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 15:57:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:57:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:58:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:58:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:59:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:59:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '' and user_password='123456' 
+Oct 25 15:59:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 15:59:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 654321 WHERE id = 1
+Oct 25 16:01:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:01:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:01:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 654321 WHERE id = 1
+Oct 25 16:03:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:03:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:04:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:04:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 25 16:04:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 654321 WHERE id = 1
+Oct 25 16:04:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 16:04:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 16:17:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 16:19:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone =  
+Oct 25 16:19:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 16:22:45 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 16:23:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 16:23:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 16:23:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 2039,create_time = 1414225421 WHERE user_phone = 13955555555
+Oct 25 16:23:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 25 16:23:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 25 16:23:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 5470,create_time = 1414225426 WHERE user_phone = 13955555555
+Oct 25 16:44:44 [SQL]_null_127.0.0.1_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='' 
+Oct 25 16:45:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 16:46:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 16:46:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 16:46:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '' and check_code='' 
+Oct 25 16:47:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:47:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:48:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:48:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:49:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:49:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:49:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:49:47 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:50:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:50:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:50:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:51:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:51:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_phone ='1806172629@qq.com' 
+Oct 25 16:52:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:52:24 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 25 16:52:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:53:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:54:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 25 16:55:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:56:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com>http://localhost/translationSystem/website/user/setNewPassWordByMail?mail=1806172629@qq.com</a>' 
+Oct 25 16:58:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/getUserMessageByMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 25 16:58:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '9' and user_password='123444' 
+Oct 25 16:58:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 123456 WHERE id = 9
+Oct 25 17:06:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 25 17:06:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:06:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:10:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:10:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:11:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:11:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:12:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:12:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:12:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:12:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:12:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:12:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:13:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 25 17:13:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 25 17:13:08 [SQL]_null_0.0.0.0_/translationSystem/api/task/getAllTask
+SELECT * FROM task_list  
+Oct 25 17:13:17 [SQL]_null_0.0.0.0_/translationSystem/api/task/getAllTask
+SELECT * FROM task_list  

@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-22 15:05:05
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-25 17:06:16
          compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/userLogin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1647154475721b93278-01342316%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31983544b6808f04551-16889719%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd6a75a9ff8bb5dd0c9b1b5cfd00bfcc8c52f146f' => 
     array (
       0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/userLogin.tpl',
-      1 => 1413961502,
+      1 => 1414102012,
     ),
   ),
-  'nocache_hash' => '1647154475721b93278-01342316',
+  'nocache_hash' => '31983544b6808f04551-16889719',
   'function' => 
   array (
   ),
@@ -39,9 +39,23 @@ $_smarty_tpl->decodeProperties(array (
                     <div><span>用户名：</span><input id="userNmae" name="userName" type="text" value="" placeholder="请输入用户名"></div>
                     <div><span>密码：</span><input style="margin-left: 16px;" id="password" name="password" type="password" value="" placeholder="密码"></div>
                     <div style="color: red">用户名或密码错误</div>
-                    <div><button>登入</button><a style="font-size: 12px;margin-left: 15px;">没有账号？</a></div>
+                    <div><button>登入</button><a style="font-size: 12px;margin-left: 15px;" href="http://localhost/translationSystem/register.html">没有账号？</a></div>
                 </form>
             </div>
         </div>
     </body>
+    <script>
+        $("#loginBut").click(function () {
+            var alertFlag = false;
+            var alertText = "";
+            if ($("#userNmae").val() == "" || $("#password").val() == "") {
+                alertFlag = true;
+                alertText += "用户名或密码不能为空";
+            }
+            if (alertFlag) {
+                alert(alertText);
+                return false;
+            }
+        })
+    </script>
 </html>

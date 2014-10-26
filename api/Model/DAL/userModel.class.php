@@ -30,6 +30,11 @@ class userModel extends ActiveRecord {
         return $this;
     }
 
+    public function getUserByPhone($phone) {
+        $this->where("user_phone ='$phone'")->select();
+        return $this;
+    }
+
     public function updateInfo($id, $data) {
         return $this->where('id = ' . $id)->save($data);
     }

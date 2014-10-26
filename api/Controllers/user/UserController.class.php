@@ -16,6 +16,7 @@ class UserController {
         $resumeBLL = new userBLL();
         $checkUserData['user_name'] = $_POST['userName'];
         $checkUserData['user_password'] = $_POST['password'];
+        $checkUserData['user_phone'] = $_POST['phone'];
         $checkUserData['user_gender'] = $_POST['gender'];
         $checkUserData['user_mail'] = $_POST['mail'];
         $checkUserData['user_id_card_photo'] = $_POST['cardPhoto'];
@@ -114,6 +115,56 @@ class UserController {
             $array = "code1"; //密码错误
         }
         AssemblyJson($array, 1);
+    }
+
+    public function isSetPhone() {
+        $phone = trim($_POST['phone']);
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->seachByPhone($phone);
+        AssemblyJson($array, 1);
+    }
+
+    public function getCheckCode() {
+        $phone = trim($_POST['phone']);
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->addCheckCode($phone);
+        AssemblyJson($array, 1);
+    }
+
+    public function checkCodeAndPhone() {
+        $phone = trim($_POST['phone']);
+
+        $code = trim($_POST['code']);
+
+        $resumeBLL = new userBLL();
+        $isSetCode = $resumeBLL->seachCheckCode($phone, $code);
+        if ($isSetCode > 0) {
+            $array = TRUE;
+        } else {
+            $array = FALSE;
+        }
+        AssemblyJson($array, 1);
+    }
+
+    public function getUserMessageByPhone() {
+        $phone = trim($_POST['phone']);
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->getUserInfoByPhone($phone);
+        AssemblyJson($array, 1);
+    }
+
+    public function getUserMessageByMail() {
+
+        $mail = trim($_POST['mail']);
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->getUserInfoBymail($mail);
+        AssemblyJson($array, 1);
+    }
+
+    public function postResetPassWordMail() {
+        $mailText = $_POST["mainText"];
+        $mailAddress = $_POST["mail"];
+        sendMail($mailAddress, "447850861@qq.com", "13917276351a", $mailText, "重置密码");
     }
 
 }

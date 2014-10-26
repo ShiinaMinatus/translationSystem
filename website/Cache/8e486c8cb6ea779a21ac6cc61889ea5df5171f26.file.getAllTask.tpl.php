@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-24 06:14:13
-         compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/adminManger.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1503654497db5d58b76-50883976%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-23 19:10:53
+         compiled from "C:/xampp/htdocs/translationSystem/website/Lib/Task/Tpl/Task/getAllTask.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:183895448e23d1a1208-28307546%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '8d050fffa6209e4d79eeb4515f468795f328a35d' => 
+    '8e486c8cb6ea779a21ac6cc61889ea5df5171f26' => 
     array (
-      0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/adminManger.tpl',
-      1 => 1414102451,
+      0 => 'C:/xampp/htdocs/translationSystem/website/Lib/Task/Tpl/Task/getAllTask.tpl',
+      1 => 1414062651,
     ),
   ),
-  'nocache_hash' => '1503654497db5d58b76-50883976',
+  'nocache_hash' => '183895448e23d1a1208-28307546',
   'function' => 
   array (
   ),
@@ -29,14 +29,14 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div><span>用户审核</span><a style=" margin-left: 25px;" href="http://localhost/translationSystem/website/user/managerPage">返回</a></div>
+        <div>任务</div>
         <div style="color: red"><?php echo $_smarty_tpl->getVariable('printMessage')->value;?>
 </div>
         <table>
-            <tr><th >id</th><th>昵称</th><th>性别</th><th>邮箱</th><th>详情</th></tr>
+            <tr><th >id</th><th>任务名称</th><th>任务简介</th><th>任务奖励</th><th>获取任务</th></tr>
                     <?php  $_smarty_tpl->tpl_vars['userAlls'] = new Smarty_Variable;
  $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
- $_from = $_smarty_tpl->getVariable('checkUser')->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_from = $_smarty_tpl->getVariable('taskList')->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 if (count($_from) > 0){
     foreach ($_from as $_smarty_tpl->tpl_vars['userAlls']->key => $_smarty_tpl->tpl_vars['userAlls']->value){
  $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['userAlls']->key;
@@ -44,19 +44,16 @@ if (count($_from) > 0){
                 <tr>
                     <td><?php echo $_smarty_tpl->tpl_vars['userAlls']->value['id'];?>
 </td>
-                    <td><?php echo $_smarty_tpl->tpl_vars['userAlls']->value['user_name'];?>
+                    <td><?php echo $_smarty_tpl->tpl_vars['userAlls']->value['task_name'];?>
 </td>
                     <td>
-                        <?php if ($_smarty_tpl->tpl_vars['userAlls']->value['user_gender']==1){?>
-                            男
-                        <?php }else{ ?>
-                            女
-                        <?php }?>
+                        <?php echo $_smarty_tpl->tpl_vars['userAlls']->value['task_context'];?>
+
                     </td>
-                    <td><?php echo $_smarty_tpl->tpl_vars['userAlls']->value['user_mail'];?>
+                    <td style="text-align: center;"><?php echo $_smarty_tpl->tpl_vars['userAlls']->value['task_reward'];?>
 </td>
                     <td><a href="http://localhost/translationSystem/website/user/singleCheckUserInfo?userId=<?php echo $_smarty_tpl->tpl_vars['userAlls']->value['id'];?>
-">详情</a></td>
+">获取任务</a></td>
                 </tr>
             <?php }} ?>
         </table>

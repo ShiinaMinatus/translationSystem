@@ -27,6 +27,16 @@
                     {/if}
                 </div>
             </div>
+            <div style="width: 400px;margin: 0 auto; text-align: center">
+                <table>
+                    <tr><td style="width: 160px">UID</td><td>{$userInfo.id}</td></tr>
+                    <tr><td>用户昵称</td><td>{$userInfo.user_name}</td></tr>
+                    <tr><td>用户邮箱</td><td>{$userInfo.user_mail}</td></tr>
+                    <tr><td>用户手机</td><td>{$userInfo.user_phone}</td></tr>
+                    <tr><td>平台币</td><td>{$userInfo.user_coin}</td></tr>
+
+                </table>
+            </div>
         </div>
     </body>
 </html>

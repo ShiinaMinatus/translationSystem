@@ -1,0 +1,80 @@
+Oct 26 20:31:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 20:31:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1
+Oct 26 20:32:20 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 20:32:20 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1
+Oct 26 20:32:28 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 20:32:28 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1
+Oct 26 20:32:32 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 26 20:32:32 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 26 20:32:33 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 26 20:32:33 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 26 20:32:50 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 20:32:50 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+1
+Oct 26 20:32:50 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 26 20:32:50 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+true
+Oct 26 20:32:50 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 26 20:32:50 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
+{"resume_id":"1","user_phone":"13524446830","user_name":"\u7fdf\u6653\u5e73","sex_name":"\u7537","user_email":"jinglingchang@126.com","user_birthday":"19891118","professional_skill":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","social_practice":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","honor":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","self_evaluation":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","school_name":"\u6e05\u534e\u5927\u5b66","education_name":"\u9ad8\u4e2d","major_detail_name":"\u7535\u5b50\u5546\u52a1","school_id":"1","education_id":"2","major_detail_id":"4","user_sex":"1","school_name_eng":"\u6e05\u534e\u5927\u5b66","education_name_eng":"\u9ad8\u4e2d","major_detail_name_eng":"\u7535\u5b50\u5546\u52a1","sex_name_eng":"male"}
+Oct 26 20:46:22 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 20:46:22 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+2
+Oct 26 20:46:22 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 26 20:46:22 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+true
+Oct 26 20:46:22 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 26 20:46:22 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
+{"resume_id":"1","user_phone":"13524446830","user_name":"\u7fdf\u6653\u5e73","sex_name":"\u7537","user_email":"jinglingchang@126.com","user_birthday":"19891118","professional_skill":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","social_practice":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","honor":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","self_evaluation":"dashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkddashkudhajkshdjkashdashk12dkajshdkjashfjkh12djashjkhkajshjdjhkasjkd","school_name":"\u6e05\u534e\u5927\u5b66","education_name":"\u9ad8\u4e2d","major_detail_name":"\u7535\u5b50\u5546\u52a1","school_id":"1","education_id":"2","major_detail_id":"4","user_sex":"1","school_name_eng":"\u6e05\u534e\u5927\u5b66","education_name_eng":"\u9ad8\u4e2d","major_detail_name_eng":"\u7535\u5b50\u5546\u52a1","sex_name_eng":"male"}
+Oct 26 21:00:46 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 21:00:46 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"false"
+Oct 26 21:11:12 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 21:11:12 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"true"
+Oct 26 21:19:19 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 21:19:19 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"true"
+Oct 26 21:19:38 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 21:19:38 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"true"
+Oct 26 21:36:04 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 21:36:04 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"false"
+Oct 26 21:36:18 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 21:36:18 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"false"
+Oct 26 21:36:32 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 26 21:36:32 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"false"
+Oct 26 21:37:21 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 26 21:37:21 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"true"
+Oct 26 21:37:31 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 26 21:37:31 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/addEngResumeMessage
+"false"

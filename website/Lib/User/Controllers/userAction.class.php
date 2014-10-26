@@ -10,10 +10,13 @@ class UserAction extends Action {
 
     //首页d
     function userLogin() {
+
         $data['password'] = $_REQUEST['password'];
         $data['userName'] = $_REQUEST['userName'];
         $re = transferData("http://localhost/translationSystem/api/user/userLogin", "post", $data);
+
         $reValue = json_decode($re, true);
+
         if ($reValue == 1) {
             $this->display();
         } else {
@@ -21,7 +24,6 @@ class UserAction extends Action {
             $_SESSION["userId"] = $reValue['id'];
             $_SESSION["userName"] = $reValue['user_name'];
             $postData["id"] = $reValue['id'];
-            var_dump($reValue);
             $reAuthority = transferData("http://localhost/translationSystem/api/user/userAuthority", "post", $postData);
             $reAuthority = json_decode($reAuthority, true);
             isLogin();

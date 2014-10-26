@@ -16,7 +16,7 @@
         <div>
             <div id="titleBar" style=" height: 140px;width: 100%">
                 <div class="divLine">
-                    <a href="http://localhost/translationSystem/website/task/getAllTask">任务</a> 
+                    <a href="http://localhost/translationSystem/website/translation/allTranslationList">任务</a> 
                 </div>
                 <div class="divLine">
                     <a href="http://localhost/translationSystem/website/user/userSetting">设置</a>

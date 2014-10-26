@@ -17,14 +17,8 @@ class taskRequestModel extends ActiveRecord {
 
     public function addTaskRequest($Array) {
 
-        return $this->add($Array);
-    }
-
-    public function getTaskInfoWithUserAndTask($taskId, $userId) {
-        $this->where("task_id ='$taskId' and user_id='$userId'")->select();
-
-
-        return $this;
+        $ras = $this->add($Array);
+        return $ras;
     }
 
 }

@@ -1,134 +1,66 @@
 <?php
 
-
-
 class ResumeController {
 
+    public function AllResume() {
+        $resumeBll = new resumeBll();
+        $array = $resumeBll->getAllResumeState();
+        AssemblyJson($array, 1);
+    }
 
-        public function save(){
+    public function changeResumeState() {
+        $id = $_REQUEST['resumeStateId'];
+        $data["resume_type"] = $_REQUEST['resumeType'];
+        $resumeBll = new resumeBll();
+        $array = $resumeBll->updateResumeStateById($id, $data);
+        AssemblyJson($array, 1);
+    }
 
-                $resumeBLL = new resumeBLL();
+    public function relevanceResume() {
+        $data["user_id"] = $_REQUEST['userId'];
+        $data["resume_state_id"] = $_REQUEST['resumeStateId'];
+        $data["task_time"] = $_REQUEST['createTime'];
+        $resumeBll = new resumeBll();
+        $array = $resumeBll->addTaskQuest($data);
+        AssemblyJson($array, 1);
+    }
 
-                $resumeBLL->saveUserResume($_REQUEST);
+    public function getTranslationResumeMessage() {
+        $id = $_REQUEST['ResumeId'];
+        $resumeBll = new resumeBll();
+        $array = $resumeBll->getSingleTranslationResume($id);
+        AssemblyJson($array, 1);
+    }
 
-                $array['resume'] = $resumeBLL;
-
-                AssemblyJson( $array, 1 );
-
-        }
-
-
-        public function getData() {
-
-
-                header( "Content-type:text/html;charset=utf-8" );
-
-
-                $majorBLL = new majorBLL();
-
-                $array['major'] = $majorBLL->getMajor();
-
-
-                $interestBLL = new interestBLL();
-
-                $array['interest'] = $interestBLL->getInfo();
-
-
-                AssemblyJson( $array, 1 );
-        }
-
-        /**
-         * 获取性别 和  热门行业  根据系对应的id 和  兴趣id
-         */
-
-        public function  get_sex_industry(){
-
-
-                $majorId = $_REQUEST['majorId'];
-
-                $interestId = $_REQUEST['interestId'];
-
-                if(!empty($majorId) && !empty($interestId)){
-
-                    $resume = new resumeBLL();
-
-                    $array['industry'] =  $resume->getUserIndustryByMajorId($majorId);
-
-                    $array['sex'] = $resume->getUserSexByInterestId($interestId,'sex',$majorId);
-
-
-                    AssemblyJson( $array, 1 );
-
+    public function addEngResumeMessage() {
+        $resumeId = $_REQUEST ["resumeId"];
+        $engName = $_REQUEST ["nameEng"];
+        $resumeDocData ["professional_skill"] = $_REQUEST ["professional_skill"];
+        $resumeDocData ["social_practice"] = $_REQUEST ["social_practice"];
+        $resumeDocData ["honor"] = $_REQUEST ["honor"];
+        $resumeDocData ["self_evaluation"] = $_REQUEST ["self_evaluation"];
+        $resumeDocData['resume_id'] = $resumeId;
+        $resumeBll = new resumeBll();
+        $resumeDoc = $resumeBll->addResumeUserDocumentEngValue($resumeId,$resumeDocData);
+        $array = "";
+        if ($resumeDoc > 0) {
+            $resumeValue = $resumeBll->getSingleResume($resumeId);
+            if ($resumeValue != NULL) {
+                $resumeValue['user_name'] = $engName;
+                $resumeEngValue = $resumeBll->addresumeEngValue($resumeId, $resumeValue);
+                if ($resumeEngValue > 0) {
+                    $array = "true";
+                } else {
+                    $array = "false";
                 }
-
-        }
-
-        /**
-         * 根据教育id 和 工作经验id  获取用户的个人评价
-         */
-
-        public function get_user_self(){
-
-            $education_id = $_REQUEST['education_id'];
-
-            $work_experience_id = $_REQUEST['work_experience_id'];
-
-            $tag_id = $_REQUEST['tag_id'];
-
-            if(!empty($education_id) && !empty($work_experience_id) && !empty($tag_id)){
-
-                $selfBLL = new selfBLL();
-
-                $selfArray = $selfBLL->getUserSelf($education_id,$work_experience_id,$tag_id,'self');
-
-                $array['self'] = $selfArray;
-
-                 AssemblyJson( $array, 1 );
-
-
+            } else {
+                $array = "false";
             }
-
+        } else {
+            $array = "false";
         }
-
-
-        /**
-         * 预览
-         */
-
-        public function preview(){
-
-
-                $user_id = $_REQUEST['user_id'];
-
-                $template_id = $_REQUEST['template_id'];
-
-                if(!empty($user_id) && !empty($template_id)){
-
-                        $userBLL = new userBLL();
-
-                        $userBLL->checkUserExsit($user_id);
-
-
-                        if(!empty($userBLL->user_id) && $userBLL->user_id > 0){
-
-                                /**
-                                 * 获取用户填写的简历内容
-                                 */
-
-                                $resumeBLL = new resumeBLL();
-
-                                $array = $resumeBLL->getUserResume($userBLL->user_id,$template_id);
-
-
-                                $templateBLL = new templateBLL();
-
-                                $templateBLL->tempalte_replate($array['info'],$array['template']);
-                        }
-                }
-
-        }
-
-
+        AssemblyJson($array, 1);
+    }
 
 }
 

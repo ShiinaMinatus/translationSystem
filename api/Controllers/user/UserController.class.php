@@ -7,7 +7,6 @@ class UserController {
 
         $userName = $_REQUEST["userName"];
         $password = $_REQUEST["password"];
-
         $array = $resumeBLL->loginInfo($userName, $password);
         AssemblyJson($array, 1);
     }

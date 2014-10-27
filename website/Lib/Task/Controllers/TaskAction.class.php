@@ -10,7 +10,7 @@ class TaskAction extends Action {
 
     //首页d
     function getAllTask() {
-        $reValue = transferData("http://localhost/translationSystem/api/task/getAllTask", "post", "");
+        $reValue = transferData(API_URL."task/getAllTask", "post", "");
         $reValue = json_decode($reValue, true);
         $this->assign("taskList", $reValue);
         $this->display();

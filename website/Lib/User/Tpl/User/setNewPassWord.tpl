@@ -9,7 +9,7 @@
     <body>
         <div>
             <div style="color: red">{$errorMessag}</div>
-            <form action="http://localhost/translationSystem/website/user/changeUserPassWord" method="post">
+            <form action="{$websiteUrl}/user/changeUserPassWord" method="post">
                 <div><span>新密码：</span><input id="newPassword" name="newPassword" type="password" value="" placeholder="请输入密码"></div>
                 <div><span>重复密码：</span><input id="rePassword" name="rePassword" type="password" value="" placeholder="请输入密码"></div>
                 <input type="hidden" name="id" value="{$userId}">

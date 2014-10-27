@@ -14,7 +14,7 @@ and open the template in the editor.
     <body>
         <div>
             <div style="color: red">{$errorMessag}</div>
-            <form action="http://localhost/translationSystem/website/user/userSetting" method="post">
+            <form action="{$websiteUrl}/user/userSetting" method="post">
                 <div><span>旧密码：</span><input id="oldPassword" name="oldPassword" type="password" value="" placeholder="请输入密码"></div>
                 <div><span>新密码：</span><input id="newPassword" name="newPassword" type="password" value="" placeholder="请输入密码"></div>
                 <div><span>重复密码：</span><input id="rePassword" name="rePassword" type="password" value="" placeholder="请输入密码"></div>

@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div><span>用户审核</span><a style=" margin-left: 25px;" href="http://localhost/translationSystem/website/user/managerPage">返回</a></div>
+        <div><span>用户审核</span><a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
         <div style="color: red">{$printMessage}</div>
         <table>
             <tr><th >id</th><th>昵称</th><th>性别</th><th>邮箱</th><th>详情</th></tr>
@@ -27,7 +27,7 @@ and open the template in the editor.
                         {/if}
                     </td>
                     <td>{$userAlls.user_mail}</td>
-                    <td><a href="http://localhost/translationSystem/website/user/singleCheckUserInfo?userId={$userAlls.id}">详情</a></td>
+                    <td><a href="{$websiteUrl}/user/singleCheckUserInfo?userId={$userAlls.id}">详情</a></td>
                 </tr>
             {/foreach}
         </table>

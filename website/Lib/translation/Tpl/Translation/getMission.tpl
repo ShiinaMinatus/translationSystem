@@ -20,7 +20,7 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <div>翻译简历 <a style=" margin-left: 25px;" href="http://localhost/translationSystem/website/user/managerPage">返回</a></div>
+        <div>翻译简历 <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
         <div style="color: red">{$printMessage}</div>
         <div style="width: 100%;">
             <table id="tra" style="width:45%;float: left">
@@ -38,7 +38,7 @@ and open the template in the editor.
                 <tr><td  colspan="2">自我评价</td></tr>
                 <tr> <td  colspan="2" class="trStyle">{$resumeValue.self_evaluation}</td></tr>
             </table>
-            <form method="post" action="http://localhost/translationSystem/website/translation/submitEnglishResume?resumeId={$resumeValue.resume_id}">
+            <form method="post" action="{$websiteUrl}/translation/submitEnglishResume?resumeId={$resumeValue.resume_id}">
                 <table  style="width: 45%;float: left;margin-left: 50px;">
                     <tr><td style="width: 100px;">姓名</td><td class=""><input id="nameEng" name="nameEng" value=""></td></tr>
                     <tr><td>性别</td><td>{$resumeValue.sex_name_eng}</td></tr>

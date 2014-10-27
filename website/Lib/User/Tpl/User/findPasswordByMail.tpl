@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form method="post" action="http://localhost/translationSystem/website/user/sendResertPasswrodMail" id="phoneForm">
+        <form method="post" action="{$websiteUrl}/user/sendResertPasswrodMail" id="phoneForm">
             <div><span>请输入邮箱：</span><input id="mail" name="mail"  value=""  type="tel"></div>
             <button id="checkCode" type="button" >
                 确认

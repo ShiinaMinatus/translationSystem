@@ -16,14 +16,14 @@
         <div>
             <div id="titleBar" style=" height: 140px;width: 100%">
                 <div class="divLine">
-                    <a href="http://localhost/translationSystem/website/translation/allTranslationList">任务</a> 
+                    <a href="{$websiteUrl}/translation/allTranslationList">任务</a> 
                 </div>
                 <div class="divLine">
-                    <a href="http://localhost/translationSystem/website/user/userSetting">设置</a>
+                    <a href="{$websiteUrl}/user/userSetting">设置</a>
                 </div>
                 <div class="divLine">
                     {if $authority eq 1}
-                        <a href="http://localhost/translationSystem/website/user/adminManger">管理</a>
+                        <a href="{$websiteUrl}/user/adminManger">管理</a>
                     {/if}
                 </div>
             </div>

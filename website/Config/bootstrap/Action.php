@@ -123,6 +123,7 @@ class Action {
         $this->smarty->assign('WebSiteUrlEN', WebSiteUrlEN);
 
         $this->smarty->assign('Photo_Url', PHOTO_URL);
+        $this->smarty->assign('ApiUrl', API_URL);
 
         $this->smarty->display($displayPage . '.tpl');
     }

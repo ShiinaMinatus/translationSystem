@@ -23,7 +23,7 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <form method="post" action="http://localhost/translationSystem/website/user/addUser?userId={$checkUser.id}">
+        <form method="post" action="{$websiteUrl}/user/addUser?userId={$checkUser.id}">
             <table>
                 <tr><td>昵称:</td><td>{$checkUser.user_name}</td></tr>
                 <tr><td>性别:</td>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 <tr><td rowspan="2"><button type="submit">通过</button> <button type="button" id="reject">驳回</button></td></tr>
             </table>
         </form>
-        <form id="formReject" method="post" action="http://localhost/translationSystem/website/user/rejectUser">       
+        <form id="formReject" method="post" action="{$websiteUrl}/user/rejectUser">       
             <div id="rejectDiv" style="">
                 <div style="height: 10px;"></div>
                 <div> 驳回理由:</div>

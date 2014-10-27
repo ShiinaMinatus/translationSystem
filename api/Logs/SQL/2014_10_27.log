@@ -148,3 +148,47 @@ Oct 27 09:45:04 [SQL]_null_0.0.0.0_/translationSystem/api/resume/changeResumeSta
 SELECT * FROM resume_state  WHERE resume_id='1' and resume_type not like '0' 
 Oct 27 09:45:04 [SQL]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
 SELECT resume.resume_id,user_phone,user_name,sex_name,user_email,user_birthday,professional_skill,social_practice,honor,self_evaluation,school_name,education_name,major_detail_name,school.school_id,education.education_id,major_detail.major_detail_id,user_sex,school_name_eng,education_name_eng,major_detail_name_eng,sex_name_eng FROM resume inner join resume_user_document on resume.resume_id=resume_user_document.resume_id inner join resume_user_info on resume.resume_id=resume_user_info.resume_id inner join school on resume_user_info.school_id=school.school_id inner join education on resume_user_info.education_id=education.education_id inner join major_detail on resume_user_info.major_detail_id=major_detail.major_detail_id inner join sex on resume.user_sex=sex.sex_id inner join school_eng on resume_user_info.school_id=school_eng.school_id inner join education_eng on resume_user_info.education_id=education_eng.education_id inner join major_detail_eng on resume_user_info.major_detail_id=major_detail_eng.major_detail_id inner join sex_eng on resume.user_sex=sex_eng.sex_id WHERE resume.resume_id = '1' 
+Oct 27 10:38:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 27 10:38:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:47:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 27 10:47:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 10:47:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 10:47:41 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 10:50:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 10:50:44 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 10:50:49 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:51:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:51:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:52:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:52:17 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:52:44 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='' and user_password='' 
+Oct 27 10:54:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 27 10:54:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 10:54:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 10:54:10 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 11:01:24 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 11:01:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:01:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:02:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 

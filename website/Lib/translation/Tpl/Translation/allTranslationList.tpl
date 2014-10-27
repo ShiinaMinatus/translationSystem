@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>任务 <a style=" margin-left: 25px;" href="http://localhost/translationSystem/website/user/managerPage">返回</a></div>
+        <div>任务 <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
         <div style="color: red">{$printMessage}</div>
         <table>
             <tr><th >任务流水号</th><th>任务发起者</th><th>任务简介</th><th>任务奖励</th><th>获取任务</th></tr>
@@ -23,7 +23,7 @@ and open the template in the editor.
                         将简历从中文翻译成英文
                     </td>
                     <td style="text-align: center;">{$translationAlls.resume_coin}</td>
-                    <td><a href="http://localhost/translationSystem/website/translation/getMission?translationId={$translationAlls.id}&resumeId={$translationAlls.resume_id}">获取任务</a></td>
+                    <td><a href="{$websiteUrl}/translation/getMission?translationId={$translationAlls.id}&resumeId={$translationAlls.resume_id}">获取任务</a></td>
                 </tr>
             {/foreach}
         </table>

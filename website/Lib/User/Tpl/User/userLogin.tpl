@@ -22,7 +22,7 @@
                     <div><span>密码：</span><input style="margin-left: 16px;" id="password" name="password" type="password" value="" placeholder="密码"></div>
                     <div style="color: red">用户名或密码错误</div>
                     <div><button>登入</button><a style="font-size: 12px;margin-left: 15px;" href="http://localhost/translationSystem/register.html">没有账号？</a>
-                        <a style="font-size: 12px;margin-left: 15px;"  href="http://localhost/translationSystem/website/user/findPasswrd">找回密码？</a></div></div>
+                        <a style="font-size: 12px;margin-left: 15px;"  href="{$websiteUrl}/user/findPasswrd">找回密码？</a></div></div>
         </form>
     </div>
 </div>

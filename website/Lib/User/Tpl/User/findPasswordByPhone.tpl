@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form method="post" action="http://localhost/translationSystem/website/user/setNewPassWordByPhone" id="phoneForm">
+        <form method="post" action="{$websiteUrl}/user/setNewPassWordByPhone" id="phoneForm">
             <div><span>请输入手机号：</span><input id="phone" name="phone" value="" type="tel">       
                 <button id="checkPhoneNumber" type="button">
                     获取验证码

@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>任务 <a style=" margin-left: 25px;" href="http://localhost/translationSystem/website/user/managerPage">返回</a></div>
+        <div>任务 <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
         <div style="color: red">{$printMessage}</div>
         <table>
             <tr><th >id</th><th>任务名称</th><th>任务简介</th><th>任务奖励</th><th>获取任务</th></tr>
@@ -23,7 +23,7 @@ and open the template in the editor.
                         {$userAlls.task_context}
                     </td>
                     <td style="text-align: center;">{$userAlls.task_reward}</td>
-                    <td><a href="http://localhost/translationSystem/website/user/singleCheckUserInfo?userId={$userAlls.id}">获取任务</a></td>
+                    <td><a href="{$websiteUrl}/user/singleCheckUserInfo?userId={$userAlls.id}">获取任务</a></td>
                 </tr>
             {/foreach}
         </table>

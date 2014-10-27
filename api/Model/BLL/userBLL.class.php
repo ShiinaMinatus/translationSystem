@@ -25,6 +25,12 @@ class userBLL {
         }
     }
 
+    public function seachSingleById($id) {
+        $userDal = new userModel();
+        $userDal->where("id= '$id'")->select();
+        return $userDal->vars;
+    }
+
     public function addUser($checkUserId) {
         $userCheck = new userCheckModel();
         $checkUserData = $userCheck->getNameById($checkUserId);
@@ -85,6 +91,12 @@ class userBLL {
         $authority = new authorityModel();
         $authority->where("user_id='$id' and authority_type='$authorityId'")->select();
         return $authority->vars_number;
+    }
+
+    public function authorityValue($id, $authorityId) {
+        $authority = new authorityModel();
+        $authority->where("user_id='$id' and authority_type='$authorityId'")->select();
+        return $authority->vars;
     }
 
     public function checkUserPasswprd($id, $password) {

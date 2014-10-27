@@ -289,7 +289,7 @@ class Db {
 
         $this->result = mysql_query($sql, self::$link);
 
-        //echo $sql . '<br />';
+        // echo $sql . '<br />';
 
         log_write($sql, $this->log_file, 'SQL');
 

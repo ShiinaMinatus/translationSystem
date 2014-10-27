@@ -472,3 +472,20 @@ Stack trace:
 [26-Oct-2014 20:31:34 Asia/Shanghai] PHP Notice:  Undefined index: password in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 9
 [26-Oct-2014 20:31:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
 [26-Oct-2014 20:31:34 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[27-Oct-2014 11:59:46 Asia/Shanghai] PHP Warning:  Missing argument 1 for ActiveRecord::where(), called in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30 and defined in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 15
+[27-Oct-2014 11:59:46 Asia/Shanghai] PHP Fatal error:  Call to undefined function select() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30
+[27-Oct-2014 11:59:49 Asia/Shanghai] PHP Warning:  Missing argument 1 for ActiveRecord::where(), called in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30 and defined in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 15
+[27-Oct-2014 11:59:49 Asia/Shanghai] PHP Fatal error:  Call to undefined function select() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30
+[27-Oct-2014 12:00:01 Asia/Shanghai] PHP Warning:  Missing argument 1 for ActiveRecord::where(), called in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30 and defined in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 15
+[27-Oct-2014 12:00:01 Asia/Shanghai] PHP Fatal error:  Call to undefined function select() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 30
+[27-Oct-2014 12:06:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:06:35 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:06:45 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:01 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:01 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:31 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:31 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:55 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[27-Oct-2014 12:07:55 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75

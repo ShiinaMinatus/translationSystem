@@ -362,3 +362,107 @@ Oct 27 11:02:00 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 {"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
 Oct 27 11:02:00 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 1
+Oct 27 11:51:54 [ERROR]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 27 11:51:54 [RETURN]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+[]
+Oct 27 11:51:55 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:51:55 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:51:56 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:51:56 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"14","user_name":"fszy","user_password":"123456","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414047348.jpg","user_certificate_photo":"1414047354.jpg","user_mail_type":"1","user_is_check":"0"}]
+Oct 27 11:51:58 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:51:58 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:52:01 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:52:01 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:52:29 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:52:29 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:52:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:52:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:52:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:52:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:52:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:52:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:53:04 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:53:04 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:59:46 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:59:46 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 11:59:49 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 11:59:49 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:00:01 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:00:01 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:00:58 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:00:58 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:00:58 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:00:58 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:06:26 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:06:26 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:06:35 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:06:35 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:06:45 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:06:45 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:07:00 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:00 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:07:00 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:00 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:07:01 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:01 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:07:01 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:01 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:07:31 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:31 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:07:31 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:31 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 27 12:07:55 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:55 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 27 12:07:55 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 27 12:07:55 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}

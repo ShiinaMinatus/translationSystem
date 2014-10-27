@@ -192,3 +192,55 @@ Oct 27 11:01:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
 Oct 27 11:02:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:51:54 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 11:51:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:51:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 11:51:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:52:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:52:29 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:52:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:52:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:52:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:53:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:59:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 11:59:49 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:00:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:00:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:00:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:06:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:06:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:06:45 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:07:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:07:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:07:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:07:01 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:07:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:07:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 12:07:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 12:07:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 

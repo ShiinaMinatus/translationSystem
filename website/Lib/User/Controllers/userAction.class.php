@@ -146,6 +146,10 @@ class UserAction extends Action {
         $postData["id"] = $_SESSION['userId'];
         $reAuthority = transferData(API_URL . "user/userAuthority", "post", $postData);
         $reAuthority = json_decode($reAuthority, true);
+        $reValue = transferData(API_URL . "user/userSingleInfo", "post", $postData);
+        $reValue = json_decode($reValue, true);
+        $this->assign("userInfo", $reValue);
+
         $this->assign("authority", $reAuthority);
         $this->display('userManger');
     }

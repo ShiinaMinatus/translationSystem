@@ -94,6 +94,15 @@ class UserController {
         AssemblyJson($array, 1);
     }
 
+    public function userSingleInfo() {
+        $id = $_POST['id'];
+        // $id = 1;
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->seachSingleById($id);
+
+        AssemblyJson($array, 1);
+    }
+
     public function passwordChange() {
         $oldPassword = $_POST['oldPassword'];
         $newPassword = $_POST["newPassword"];

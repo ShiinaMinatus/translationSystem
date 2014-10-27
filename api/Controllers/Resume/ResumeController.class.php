@@ -17,11 +17,12 @@ class ResumeController {
     }
 
     public function relevanceResume() {
+        $id = $_REQUEST['resumeStateId'];
         $data["user_id"] = $_REQUEST['userId'];
-        $data["resume_state_id"] = $_REQUEST['resumeStateId'];
+        $data["resume_state_id"] = $id;
         $data["task_time"] = $_REQUEST['createTime'];
         $resumeBll = new resumeBll();
-        $array = $resumeBll->addTaskQuest($data);
+        $array = $resumeBll->addTaskQuest($id, $data);
         AssemblyJson($array, 1);
     }
 
@@ -41,7 +42,7 @@ class ResumeController {
         $resumeDocData ["self_evaluation"] = $_REQUEST ["self_evaluation"];
         $resumeDocData['resume_id'] = $resumeId;
         $resumeBll = new resumeBll();
-        $resumeDoc = $resumeBll->addResumeUserDocumentEngValue($resumeId,$resumeDocData);
+        $resumeDoc = $resumeBll->addResumeUserDocumentEngValue($resumeId, $resumeDocData);
         $array = "";
         if ($resumeDoc > 0) {
             $resumeValue = $resumeBll->getSingleResume($resumeId);

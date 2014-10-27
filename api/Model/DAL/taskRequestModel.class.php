@@ -21,6 +21,12 @@ class taskRequestModel extends ActiveRecord {
         return $ras;
     }
 
+    public function checkTaskRequest($id) {
+
+        $this->where("resume_state_id='$id' ")->select();
+        return $this;
+    }
+
 }
 
 ?>

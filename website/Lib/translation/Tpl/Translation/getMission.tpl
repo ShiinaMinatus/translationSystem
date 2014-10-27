@@ -40,22 +40,54 @@ and open the template in the editor.
             </table>
             <form method="post" action="http://localhost/translationSystem/website/translation/submitEnglishResume?resumeId={$resumeValue.resume_id}">
                 <table  style="width: 45%;float: left;margin-left: 50px;">
-                    <tr><td style="width: 100px;">姓名</td><td class=""><input name="nameEng"></td></tr>
+                    <tr><td style="width: 100px;">姓名</td><td class=""><input id="nameEng" name="nameEng" value=""></td></tr>
                     <tr><td>性别</td><td>{$resumeValue.sex_name_eng}</td></tr>
                     <tr><td>毕业院校</td><td>{$resumeValue.school_name_eng}</td></tr>
                     <tr><td>专业</td><td>{$resumeValue.major_detail_name_eng}</td></tr>
                     <tr><td>最高学历</td><td>{$resumeValue.education_name_eng}</td></tr>
                     <tr><td  colspan="2">专业技能</td></tr>
-                    <tr> <td  colspan="2" class="trStyle"><textarea name="professional_skill" class="textArea"></textarea></td></tr>
+                    <tr> <td  colspan="2" class="trStyle"><textarea id="professional_skill" name="professional_skill" class="textArea"></textarea></td></tr>
                     <tr><td colspan="2">社会经历</td></tr>
-                    <tr> <td  colspan="2" class="trStyle"><textarea name="social_practice" class="textArea"></textarea></td></tr>
+                    <tr> <td  colspan="2" class="trStyle"><textarea id="social_practice" name="social_practice" class="textArea"></textarea></td></tr>
                     <tr><td  colspan="2">荣誉奖项</td></tr>
-                    <tr> <td  colspan="2" class="trStyle"><textarea name="honor" class="textArea"></textarea></td></tr>
+                    <tr> <td  colspan="2" class="trStyle"><textarea id="honor" name="honor" class="textArea"></textarea></td></tr>
                     <tr><td  colspan="2">自我评价</td></tr>
-                    <tr> <td  colspan="2" class="trStyle"><textarea name="self_evaluation" class="textArea"></textarea></td></tr>
-                    <tr><td  colspan="2"><button> 提交</button><button style="margin-left: 35px;" type="reset">重置</button></td></tr>
+                    <tr> <td  colspan="2" class="trStyle"><textarea id="self_evaluation" name="self_evaluation" class="textArea"></textarea></td></tr>
+                    <tr><td  colspan="2"><button id="subBut"> 提交</button><button style="margin-left: 35px;" type="reset">重置</button></td></tr>
                 </table>
             </form>
         </div>
     </body>
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $("#subBut").click(function () {
+            var alertFlag = false;
+            var alertText = "";
+            if ($("#nameEng").val() == "") {
+                alertFlag = true;
+                alertText += "姓名不能为空";
+            }
+            if ($("#professional_skill").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n专业技能不能为空";
+            }
+            if ($("#social_practice").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n社会经历不能为空";
+            }
+            if ($("#honor").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n荣誉奖项不能为空";
+            }
+            if ($("#self_evaluation").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n自我评价不能为空";
+            }
+            if (alertFlag) {
+                alert(alertText);
+                return false;
+            }
+        })
+
+    </script>
 </html>

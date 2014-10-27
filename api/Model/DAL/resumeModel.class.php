@@ -14,7 +14,17 @@ class resumeModel extends ActiveRecord {
             return $this->vars;
         }
     }
-    
+
+    public function addResume($userInfoArray) {
+
+        return $this->add($userInfoArray);
+    }
+
+    public function checkResume($id) {
+
+        $this->where("resume_id='$id'")->select();
+        return $this;
+    }
 
 }
 

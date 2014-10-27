@@ -33,14 +33,24 @@ class resumeBll {
     }
 
     //添加翻译用户与简历关系
-    public function addTaskQuest($array) {
+    public function addTaskQuest($id, $array) {
         $taskRequest = new taskRequestModel();
-        return $taskRequest->addTaskRequest($array);
+        $taskRequest->checkTaskRequest($id);
+        if ($taskRequest->vars_number > 0) {
+            return 1;
+        } else {
+            return $taskRequest->addTaskRequest($array);
+        }
     }
 
     public function updateResumeStateById($id, $array) {
         $resumeState = new resumeStateModel();
-        return $resumeState->updateResumeState($id, $array);
+        $resumeState->checkResumeState($id);
+        if ($resumeState->vars_number > 0) {
+            return true;
+        } else {
+            return $resumeState->updateResumeState($id, $array);
+        }
     }
 
     public function getSingleTranslationResume($id) {

@@ -11,6 +11,7 @@ defined('WebSiteName') or define('WebSiteName', 'website');
 defined('WebSiteName1') or define('WebSiteName1', '/translationSystem');
 defined('PHOTO_URL') or define('PHOTO_URL', 'http://localhost/translationSystem/uploads/'); //定义图片路径
 defined('API_URL') or define('API_URL', 'http://localhost/translationSystem/api/'); //定义apiUrl
+
 defined('ROOT_DIR') or define('ROOT_DIR', $_SERVER['DOCUMENT_ROOT'] . WebSiteName1 . '/' . WebSiteName);
 
 defined('WebSiteName') or define('WebSiteName', '/website/');
@@ -35,9 +36,8 @@ defined('URL_MODEL') or define('URL_MODEL', '1'); //url模式 0为默认模式  
 
 defined('LIB') or define('LIB', ROOT_DIR . '/Lib/');
 
-defined('WebSiteUrl') or define('WebSiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . WebSiteName1."/".WebSiteName);
-
-
+defined('WebSiteUrl') or define('WebSiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . WebSiteName1 . "/" . WebSiteName);
+defined('MasterDirUrl') or define('MasterDirUrl', 'http://' . $_SERVER['HTTP_HOST'] . WebSiteName1); //定义apiUrl
 defined('SQLLog') or define('SQLLog', ROOT_DIR . '/Log/SQL/');
 
 

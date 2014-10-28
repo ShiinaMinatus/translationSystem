@@ -1,0 +1,8 @@
+Oct 28 06:28:29 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 06:28:29 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1
+Oct 28 06:29:52 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 06:29:52 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1

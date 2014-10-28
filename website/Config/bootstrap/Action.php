@@ -118,6 +118,7 @@ class Action {
 
 
         $this->smarty->assign('WebSiteUrlPublic', WebSiteUrlPublic);
+        $this->smarty->assign('MasterDirUrl', MasterDirUrl);
 
 
         $this->smarty->assign('WebSiteUrlEN', WebSiteUrlEN);

@@ -10,27 +10,35 @@ class UserAction extends Action {
 
     //首页d
     function userLogin() {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $data['password'] = $_REQUEST['password'];
+            $data['userName'] = $_REQUEST['userName'];
+            $re = transferData(API_URL . "user/userLogin", "post", $data);
 
-        $data['password'] = $_REQUEST['password'];
-        $data['userName'] = $_REQUEST['userName'];
-        $re = transferData(API_URL . "user/userLogin", "post", $data);
+            $reValue = json_decode($re, true);
 
-        $reValue = json_decode($re, true);
+            if ($reValue == 1) {
+                $this->assign("userError", "用户名或密码错误");
+                $this->display();
+            } else {
 
-        if ($reValue == 1) {
-            $this->display();
+                $_SESSION["userId"] = $reValue['id'];
+                $_SESSION["userName"] = $reValue['user_name'];
+                $postData["id"] = $reValue['id'];
+                $reAuthority = transferData(API_URL . "user/userAuthority", "post", $postData);
+                $reAuthority = json_decode($reAuthority, true);
+                isLogin();
+                $this->assign("authority", $reAuthority);
+                $this->assign("userInfo", $reValue);
+                $this->display('userManger');
+            }
         } else {
-
-            $_SESSION["userId"] = $reValue['id'];
-            $_SESSION["userName"] = $reValue['user_name'];
-            $postData["id"] = $reValue['id'];
-            $reAuthority = transferData(API_URL . "user/userAuthority", "post", $postData);
-            $reAuthority = json_decode($reAuthority, true);
-            isLogin();
-            $this->assign("authority", $reAuthority);
-            $this->assign("userInfo", $reValue);
-            $this->display('userManger');
+            $this->display();
         }
+    }
+
+    function register() {
+        $this->display();
     }
 
     function userRegister() {

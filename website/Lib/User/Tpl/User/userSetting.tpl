@@ -13,6 +13,7 @@ and open the template in the editor.
     </head>
     <body>
         <div>
+            <div>用户设置<a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
             <div style="color: red">{$errorMessag}</div>
             <form action="{$websiteUrl}/user/userSetting" method="post">
                 <div><span>旧密码：</span><input id="oldPassword" name="oldPassword" type="password" value="" placeholder="请输入密码"></div>

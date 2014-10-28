@@ -244,3 +244,329 @@ Oct 27 12:07:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
 Oct 27 12:07:55 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
 SELECT * FROM user  WHERE id= '1' 
+Oct 27 13:56:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 13:56:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:21:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 27 15:23:08 [SQL]_null_192.168.0.122_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 15:23:08 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:14 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:23:16 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:16 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:23:25 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:25 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:23:26 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:23:30 [SQL]_null_192.168.0.122_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 14 
+Oct 27 15:23:43 [SQL]_null_192.168.0.122_/translationSystem/api/user/rejectCheckUser
+UPDATE user_check_list SET user_is_check = 1 WHERE id = 14
+Oct 27 15:23:44 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:23:50 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:50 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:23:55 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:55 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:23:56 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:23:58 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:23:58 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:24:03 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:24:03 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:24:11 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:24:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:24:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/relevanceResume
+SELECT * FROM task_request  WHERE resume_state_id='1'  
+Oct 27 15:24:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/relevanceResume
+INSERT INTO task_request (`user_id`,`resume_state_id`,`task_time`) VALUES ("1","1","1414394693")
+Oct 27 15:24:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/changeResumeState
+SELECT * FROM resume_state  WHERE resume_id='1' and resume_type not like '0' 
+Oct 27 15:24:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/changeResumeState
+UPDATE resume_state SET resume_type = 1 WHERE id = 1
+Oct 27 15:24:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/getTranslationResumeMessage
+SELECT resume.resume_id,user_phone,user_name,sex_name,user_email,user_birthday,professional_skill,social_practice,honor,self_evaluation,school_name,education_name,major_detail_name,school.school_id,education.education_id,major_detail.major_detail_id,user_sex,school_name_eng,education_name_eng,major_detail_name_eng,sex_name_eng FROM resume inner join resume_user_document on resume.resume_id=resume_user_document.resume_id inner join resume_user_info on resume.resume_id=resume_user_info.resume_id inner join school on resume_user_info.school_id=school.school_id inner join education on resume_user_info.education_id=education.education_id inner join major_detail on resume_user_info.major_detail_id=major_detail.major_detail_id inner join sex on resume.user_sex=sex.sex_id inner join school_eng on resume_user_info.school_id=school_eng.school_id inner join education_eng on resume_user_info.education_id=education_eng.education_id inner join major_detail_eng on resume_user_info.major_detail_id=major_detail_eng.major_detail_id inner join sex_eng on resume.user_sex=sex_eng.sex_id WHERE resume.resume_id = '1' 
+Oct 27 15:25:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/addEngResumeMessage
+SELECT * FROM resume_user_document_eng  WHERE resume_id='1' 
+Oct 27 15:25:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/addEngResumeMessage
+INSERT INTO resume_user_document_eng (`professional_skill`,`social_practice`,`honor`,`self_evaluation`,`resume_id`) VALUES ("dasddasddddasdasdd","sadasdsadsad123213das","dsadasd","asd123124","1")
+Oct 27 15:25:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/addEngResumeMessage
+SELECT * FROM resume  WHERE resume_id ='1' 
+Oct 27 15:25:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/addEngResumeMessage
+SELECT * FROM resume_eng  WHERE resume_id='1' 
+Oct 27 15:25:46 [SQL]_null_192.168.0.122_/translationSystem/api/resume/addEngResumeMessage
+INSERT INTO resume_eng (`resume_id`,`user_id`,`user_phone`,`user_name`,`user_sex`,`user_email`,`user_birthday`,`user_code`,`resume_create_time`,`resume_update_time`) VALUES ("1","1","13524446830","dasdsadsad","1","jinglingchang@126.com","19891118","0","0","0")
+Oct 27 15:25:50 [SQL]_null_192.168.0.122_/translationSystem/api/resume/relevanceResume
+SELECT * FROM task_request  WHERE resume_state_id='1'  
+Oct 27 15:25:51 [SQL]_null_192.168.0.122_/translationSystem/api/resume/changeResumeState
+SELECT * FROM resume_state  WHERE resume_id='1' and resume_type not like '0' 
+Oct 27 15:25:51 [SQL]_null_192.168.0.122_/translationSystem/api/resume/getTranslationResumeMessage
+SELECT resume.resume_id,user_phone,user_name,sex_name,user_email,user_birthday,professional_skill,social_practice,honor,self_evaluation,school_name,education_name,major_detail_name,school.school_id,education.education_id,major_detail.major_detail_id,user_sex,school_name_eng,education_name_eng,major_detail_name_eng,sex_name_eng FROM resume inner join resume_user_document on resume.resume_id=resume_user_document.resume_id inner join resume_user_info on resume.resume_id=resume_user_info.resume_id inner join school on resume_user_info.school_id=school.school_id inner join education on resume_user_info.education_id=education.education_id inner join major_detail on resume_user_info.major_detail_id=major_detail.major_detail_id inner join sex on resume.user_sex=sex.sex_id inner join school_eng on resume_user_info.school_id=school_eng.school_id inner join education_eng on resume_user_info.education_id=education_eng.education_id inner join major_detail_eng on resume_user_info.major_detail_id=major_detail_eng.major_detail_id inner join sex_eng on resume.user_sex=sex_eng.sex_id WHERE resume.resume_id = '1' 
+Oct 27 15:27:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:27:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:30:31 [SQL]_null_192.168.0.122_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 15:30:31 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:30:47 [SQL]_null_192.168.0.122_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 15:30:47 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:30:51 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:30:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:30:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:30:56 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:30:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:30:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:11 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:11 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:15 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:31:20 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:20 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:23 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:31:27 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:27 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:31 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:31:41 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:41 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:43 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:31:44 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:44 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:48 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:31:48 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:31:50 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:32:35 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:35 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:39 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:32:40 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:40 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:43 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:43 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:47 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:32:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:51 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:32:52 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:52 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:55 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:55 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:32:56 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:32:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:32:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:33:00 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:40 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:41 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:41 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:41 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:41 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:43 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:43 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:33:44 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:33:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:33:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:33:47 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:48 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:53 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:33:56 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:34:40 [SQL]_null_192.168.0.122_/translationSystem/api/resume/relevanceResume
+SELECT * FROM task_request  WHERE resume_state_id='1'  
+Oct 27 15:34:40 [SQL]_null_192.168.0.122_/translationSystem/api/resume/changeResumeState
+SELECT * FROM resume_state  WHERE resume_id='1' and resume_type not like '0' 
+Oct 27 15:34:40 [SQL]_null_192.168.0.122_/translationSystem/api/resume/changeResumeState
+UPDATE resume_state SET resume_type = 1 WHERE id = 1
+Oct 27 15:34:40 [SQL]_null_192.168.0.122_/translationSystem/api/resume/getTranslationResumeMessage
+SELECT resume.resume_id,user_phone,user_name,sex_name,user_email,user_birthday,professional_skill,social_practice,honor,self_evaluation,school_name,education_name,major_detail_name,school.school_id,education.education_id,major_detail.major_detail_id,user_sex,school_name_eng,education_name_eng,major_detail_name_eng,sex_name_eng FROM resume inner join resume_user_document on resume.resume_id=resume_user_document.resume_id inner join resume_user_info on resume.resume_id=resume_user_info.resume_id inner join school on resume_user_info.school_id=school.school_id inner join education on resume_user_info.education_id=education.education_id inner join major_detail on resume_user_info.major_detail_id=major_detail.major_detail_id inner join sex on resume.user_sex=sex.sex_id inner join school_eng on resume_user_info.school_id=school_eng.school_id inner join education_eng on resume_user_info.education_id=education_eng.education_id inner join major_detail_eng on resume_user_info.major_detail_id=major_detail_eng.major_detail_id inner join sex_eng on resume.user_sex=sex_eng.sex_id WHERE resume.resume_id = '1' 
+Oct 27 15:34:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:34:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:34:52 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:35:17 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:35:17 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:35:26 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:35:31 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:35:31 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:35:34 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:35:52 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:35:52 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:35:55 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:35:56 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:35:56 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:00 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:36:04 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:04 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:10 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:10 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:23 [SQL]_null_192.168.0.122_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='654321' 
+Oct 27 15:36:23 [SQL]_null_192.168.0.122_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 123456 WHERE id = 1
+Oct 27 15:36:29 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:29 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:32 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:36:33 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:33 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:35 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:36:38 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:38 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:36:42 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:36:42 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:43:19 [SQL]_null_192.168.0.122_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 27 15:43:19 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:45:34 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:45:36 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:45:36 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:45:39 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:45:39 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:45:40 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:45:42 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:45:42 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:49:47 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 27 15:49:47 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:49:48 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:49:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 27 15:49:49 [SQL]_null_192.168.0.122_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 
+Oct 27 15:49:50 [SQL]_null_192.168.0.122_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 27 15:50:18 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='admin' 
+Oct 27 15:50:28 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 27 15:50:28 [SQL]_null_192.168.0.122_/translationSystem/api/user/getCheckCode
+SELECT * FROM check_code  WHERE user_phone = 13955555555 
+Oct 27 15:50:28 [SQL]_null_192.168.0.122_/translationSystem/api/user/getCheckCode
+UPDATE check_code SET check_code = 7256,create_time = 1414396228 WHERE user_phone = 13955555555
+Oct 27 15:50:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkCodeAndPhone
+SELECT * FROM check_code  WHERE user_phone = '13955555555' and check_code='7256' 
+Oct 27 15:50:46 [SQL]_null_192.168.0.122_/translationSystem/api/user/getUserMessageByPhone
+SELECT * FROM user  WHERE user_phone ='13955555555' 
+Oct 27 15:50:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/passwordChange
+SELECT * FROM user  WHERE id = '1' and user_password='123456' 
+Oct 27 15:50:54 [SQL]_null_192.168.0.122_/translationSystem/api/user/passwordChange
+UPDATE user SET user_password = 654321 WHERE id = 1
+Oct 27 15:51:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 27 15:51:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 

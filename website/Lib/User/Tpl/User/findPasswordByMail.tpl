@@ -17,17 +17,18 @@ and open the template in the editor.
                 确认
             </button>
         </form>
-
+        <input type="hidden" id="masterDir" value="{$MasterDirUrl}">
     </body>
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script>
+        URLstring = $("#masterDir").val();
         $("#checkCode").click(function () {
             if ($("#mail").val() == "") {
                 alert("邮箱不能为空");
                 return  false;
             }
             $.post(
-                    "/translationSystem/website/user/checkUserMail",
+                    URLstring + "/website/user/checkUserMail",
                     {
                         mail: $("#mail").val(),
                     },

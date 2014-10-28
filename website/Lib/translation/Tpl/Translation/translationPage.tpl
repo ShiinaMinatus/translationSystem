@@ -6,12 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>翻译简历</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>翻译简历 <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
+        <div>翻译简历
+            {* <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a>*}
+        </div>
         <div style="color: red">{$printMessage}</div>
         <table>
             <tr><td>姓名</td><td>{$resumeValue.user_name}</td></tr>

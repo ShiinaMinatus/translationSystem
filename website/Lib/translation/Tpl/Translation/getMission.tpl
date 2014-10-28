@@ -20,7 +20,9 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <div>翻译简历 <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
+        <div>翻译简历
+            {* <a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a>*}
+        </div>
         <div style="color: red">{$printMessage}</div>
         <div style="width: 100%;">
             <table id="tra" style="width:45%;float: left">

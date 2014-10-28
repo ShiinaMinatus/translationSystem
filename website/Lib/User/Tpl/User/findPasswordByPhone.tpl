@@ -24,17 +24,18 @@ and open the template in the editor.
                 确认
             </button>
         </form>
-
+        <input type="hidden" id="masterDir" value="{$MasterDirUrl}">
     </body>
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script>
+        URLstring = $("#masterDir").val();
         $("#checkPhoneNumber").click(function () {
             if ($("#phone").val() == "") {
                 alert("手机号码不能为空");
                 return  false;
             }
             $.post(
-                    "/translationSystem/website/user/checkUserPhone",
+                    URLstring + "/website/user/checkUserPhone",
                     {
                         phone: $("#phone").val()
                     },
@@ -55,7 +56,7 @@ and open the template in the editor.
                 return  false;
             }
             $.post(
-                    "/translationSystem/website/user/checkCode",
+                    URLstring + "/website/user/checkCode",
                     {
                         phone: $("#phone").val(),
                         code: $("#code").val()

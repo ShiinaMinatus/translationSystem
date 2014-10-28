@@ -1,0 +1,4 @@
+Oct 28 06:28:29 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='7654321' 
+Oct 28 06:29:52 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='578' 

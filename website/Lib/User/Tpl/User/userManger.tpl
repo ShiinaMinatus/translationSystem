@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div style="width: 400px;margin: 0 auto; text-align: center">
-                <table>
+                <table style="border: 1px solid black;">
                     <tr><td style="width: 160px">UID</td><td>{$userInfo.id}</td></tr>
                     <tr><td>用户昵称</td><td>{$userInfo.user_name}</td></tr>
                     <tr><td>用户邮箱</td><td>{$userInfo.user_mail}</td></tr>

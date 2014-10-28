@@ -8,6 +8,14 @@ class ResumeController {
         AssemblyJson($array, 1);
     }
 
+    public function undoneResumeTranslation() {
+        $stateType = 1;
+        $userId = $_REQUEST["userId"];
+        $resumeBll = new resumeBll();
+        $array = $resumeBll->getAllResumeStateByState($stateType, $userId);
+        AssemblyJson($array, 1);
+    }
+
     public function changeResumeState() {
         $id = $_REQUEST['resumeStateId'];
         $data["resume_type"] = $_REQUEST['resumeType'];
@@ -50,6 +58,8 @@ class ResumeController {
                 $resumeValue['user_name'] = $engName;
                 $resumeEngValue = $resumeBll->addresumeEngValue($resumeId, $resumeValue);
                 if ($resumeEngValue > 0) {
+                    $data["resume_type"] = 2;
+                    $resumeBll->updateResumeStateWithResumeId($resumeId, $data);
                     $array = "true";
                 } else {
                     $array = "false";

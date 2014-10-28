@@ -1,4 +1,30 @@
-Oct 28 06:28:29 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
-SELECT * FROM user  WHERE user_mail='admin' and user_password='7654321' 
-Oct 28 06:29:52 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
-SELECT * FROM user  WHERE user_mail='admin' and user_password='578' 
+Oct 28 11:26:16 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:26:34 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:26:43 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:26:44 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:26:55 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:27:04 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:27:07 [SQL]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+SELECT * FROM task_request  WHERE resume_state_id='1'  
+Oct 28 11:27:07 [SQL]_null_0.0.0.0_/translationSystem/api/resume/relevanceResume
+INSERT INTO task_request (`user_id`,`resume_state_id`,`task_time`) VALUES ("1","1","1414466827")
+Oct 28 11:27:07 [SQL]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+SELECT * FROM resume_state  WHERE resume_id='1' and resume_type not like '0' 
+Oct 28 11:27:07 [SQL]_null_0.0.0.0_/translationSystem/api/resume/changeResumeState
+UPDATE resume_state SET resume_type = 1 WHERE id = 1
+Oct 28 11:27:07 [SQL]_null_0.0.0.0_/translationSystem/api/resume/getTranslationResumeMessage
+SELECT resume.resume_id,user_phone,user_name,sex_name,user_email,user_birthday,professional_skill,social_practice,honor,self_evaluation,school_name,education_name,major_detail_name,school.school_id,education.education_id,major_detail.major_detail_id,user_sex,school_name_eng,education_name_eng,major_detail_name_eng,sex_name_eng FROM resume inner join resume_user_document on resume.resume_id=resume_user_document.resume_id inner join resume_user_info on resume.resume_id=resume_user_info.resume_id inner join school on resume_user_info.school_id=school.school_id inner join education on resume_user_info.education_id=education.education_id inner join major_detail on resume_user_info.major_detail_id=major_detail.major_detail_id inner join sex on resume.user_sex=sex.sex_id inner join school_eng on resume_user_info.school_id=school_eng.school_id inner join education_eng on resume_user_info.education_id=education_eng.education_id inner join major_detail_eng on resume_user_info.major_detail_id=major_detail_eng.major_detail_id inner join sex_eng on resume.user_sex=sex_eng.sex_id WHERE resume.resume_id = '1' 
+Oct 28 11:27:10 [SQL]_null_0.0.0.0_/translationSystem/api/resume/AllResume
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id WHERE resume_type ='0' 
+Oct 28 11:27:11 [SQL]_null_0.0.0.0_/translationSystem/api/resume/undoneResumeTranslation
+SELECT * FROM resume_state inner join resume on resume_state.resume_id=resume.resume_id inner join task_request on resume_state.id=task_request.resume_state_id WHERE resume_type ='1' and task_request.user_id='1' 
+Oct 28 11:27:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 28 11:27:13 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
+SELECT * FROM user  WHERE id= '1' 

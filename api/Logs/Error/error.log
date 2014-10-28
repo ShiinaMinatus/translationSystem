@@ -692,3 +692,91 @@ Stack trace:
 [28-Oct-2014 06:28:29 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
 [28-Oct-2014 06:29:52 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
 [28-Oct-2014 06:29:52 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:04:14 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Column 'user_id' in where clause is ambiguous' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(72): Db->query('SELECT * FROM r...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(66): Db->getAll('SELECT * FROM r...')
+#2 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(68): Db->select(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\resumeBll.class.php(26): ActiveRecord->select()
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php(15): resumeBll->getAllResumeStateByState(1, 1)
+#5 [internal function]: ResumeController->undoneResumeTranslation()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(494): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(73): R('/resume/undoneR...', 'Resume')
+#8 C:\xampp\htdocs\tran in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[28-Oct-2014 11:06:25 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:12:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:12:02 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:12:13 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:12:13 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:13:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:13:54 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:14:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:14:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:14:10 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:14:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:15:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:01 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:06 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:08 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:08 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:10 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:16:11 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:15 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:15 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:15 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:16 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:17 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:16:30 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:16:32 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:33 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:33 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:33 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:16:38 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:17:18 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 11:20:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:20:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:20:50 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:20:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:20:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:20:53 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:20:53 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:22:34 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:22:36 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:22:36 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:22:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:22:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:22:48 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:23:16 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:23:44 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:24:13 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:24:39 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:24:45 Asia/Shanghai] PHP Fatal error:  Call to undefined method resumeBll::getAllResumeState() in C:\xampp\htdocs\translationSystem\api\Controllers\Resume\ResumeController.class.php on line 7
+[28-Oct-2014 11:26:16 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:26:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:26:43 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:26:44 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:26:55 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:27:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:10 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 11:27:11 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:13 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 11:27:13 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75

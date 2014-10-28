@@ -475,7 +475,7 @@ function isLogin() {
     if ($_SESSION['userId'] > 0) {
         
     } else {
-        header("Location:http://localhost/translationSystem/login.html");
+        header("Location:" . websiteUrl . "/user/userLogin");
         die;
     }
 }

@@ -20,6 +20,13 @@ class resumeBll {
         return $resumeVal;
     }
 
+//获取指定用户指定状态的简历 2014年10月28日10:56
+    public function getAllResumeStateByState($stateType, $userId) {
+        $resumeState = new resumeStateModel();
+        $resumeState->join("resume on resume_state.resume_id=resume.resume_id inner join task_request on resume_state.id=task_request.resume_state_id", "inner join")->where("resume_type ='$stateType' and task_request.user_id='$userId'")->select();
+        return $resumeState->vars_all;
+    }
+
     public function getAllResumeState() {
         $resumeState = new resumeStateModel();
         $resumeState->join("resume on resume_state.resume_id=resume.resume_id", "inner join")->where("resume_type ='0'")->select();
@@ -51,6 +58,12 @@ class resumeBll {
         } else {
             return $resumeState->updateResumeState($id, $array);
         }
+    }
+
+    public function updateResumeStateWithResumeId($id, $array) {
+        $resumeState = new resumeStateModel();
+
+        return $resumeState->updateResumeStateByResumeId($id, $array);
     }
 
     public function getSingleTranslationResume($id) {

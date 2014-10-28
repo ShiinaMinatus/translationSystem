@@ -253,7 +253,7 @@ class UserAction extends Action {
         if ($returnValue == "code1") {
             $errorMessage = "密码错误";
         } else if ($returnValue == "code2") {
-            $errorMessage = "修改成功,<a href='http://localhost/translationSystem/login.html'>返回</a>登入界面";
+            $errorMessage = "修改成功,<a href='" . WebSiteUrl . "user/userlogin'>返回</a>登入界面";
         } else {
             $errorMessage = "发生未知错误";
         }

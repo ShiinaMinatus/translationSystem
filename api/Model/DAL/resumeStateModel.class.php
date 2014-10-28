@@ -8,6 +8,10 @@ class resumeStateModel extends ActiveRecord {
         return $this->where('id = ' . $id)->save($data);
     }
 
+    public function updateResumeStateByResumeId($id, $data) {
+        return $this->where('resume_id = ' . $id)->save($data);
+    }
+
     public function addResumeState($userInfoArray) {
 
         return $this->add($userInfoArray);

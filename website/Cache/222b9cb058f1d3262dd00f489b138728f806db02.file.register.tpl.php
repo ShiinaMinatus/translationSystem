@@ -1,4 +1,23 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-28 16:38:43
+         compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:24095544f561360cba3-58470913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '222b9cb058f1d3262dd00f489b138728f806db02' => 
+    array (
+      0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl',
+      1 => 1414485512,
+    ),
+  ),
+  'nocache_hash' => '24095544f561360cba3-58470913',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
+<?php if (!is_callable('smarty_function_math')) include 'C:\xampp\htdocs\translationSystem\website\Config\Smarty\libs\plugins\function.math.php';
+?><!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -10,12 +29,16 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-        <script src = "{$MasterDirUrl}/uploadify/jquery.uploadify.min.js?ver={math equation=rand(125,324)}" type = "text/javascript" ></script>
-        <link rel="stylesheet" type="text/css" href="{$MasterDirUrl}/uploadify/uploadify.css" />
+        <script src = "<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
+/uploadify/jquery.uploadify.min.js?ver=<?php echo smarty_function_math(array('equation'=>rand(125,324)),$_smarty_tpl->smarty,$_smarty_tpl);?>
+" type = "text/javascript" ></script>
+        <link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
+/uploadify/uploadify.css" />
     </head>
     <body>
         <div style="margin: 0 auto;width: 1200px;margin-top:  100px;">
-            <form action="{$websiteUrl}/user/userRegister" method="post">
+            <form action="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/user/userRegister" method="post">
                 <div><span>用户名：</span><input id="userNmae" name="userName"style="margin-left: 32px;" type="text" value="" placeholder="请输入用户名"></div><br>
                 <div><span>密码：</span><input id="password" name="password" style="margin-left: 48px;" type="password" value="" placeholder="请输入密码"></div><br>
                 <div><span>重复密码：</span><input id="rePassword" name="rePassword" style="margin-left: 16px;" type="password" value="" placeholder="请输入密码"></div><br>
@@ -49,7 +72,8 @@ and open the template in the editor.
                 </div>
                 <div><button id="registerBut">注册</button></div>
             </form>
-            <input type="hidden" id="masterDir" value="{$MasterDirUrl}">
+            <input type="hidden" id="masterDir" value="<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
+">
         </div>
     </body>
     <script>
@@ -94,7 +118,8 @@ and open the template in the editor.
             'uploader': URLstring + '/uploadify/uploadify_group.php',
             'formData': {
                 'objectid': 'upload_0',
-                'session_id': '{$session_id}'
+                'session_id': '<?php echo $_smarty_tpl->getVariable('session_id')->value;?>
+'
             },
             'onUploadSuccess': function (file, data, response) {
                 if (data == "code2") {
@@ -121,7 +146,8 @@ and open the template in the editor.
             'uploader': URLstring + '/uploadify/uploadify_group.php',
             'formData': {
                 'objectid': 'upload_1',
-                'session_id': '{$session_id}'
+                'session_id': '<?php echo $_smarty_tpl->getVariable('session_id')->value;?>
+'
             },
             'onUploadSuccess': function (file, data, response) {
                 $("#errorMessageDiv").hide();

@@ -15,7 +15,7 @@ if (!empty($_REQUEST['session_id'])) {
 $targetFolder = '/translationSystem/uploads'; // Relative to the root
 //$targetFolder = '/weixin_crm/uploads'; // Relative to the root
 
-$url = 'http://localhost/translationSystem/uploads/';
+$url = 'http://192.168.0.122/translationSystem/uploads/';
 //$url = 'http://localhost/weixin_crm/uploads/';
 
 
@@ -32,13 +32,13 @@ if (!empty($_FILES)) {
     $targetFile = rtrim($targetPath, '/') . '/' . $fileNewName;
 
     // Validate the file type
-    $fileTypes = array('jpg', 'jpeg'); // File extensions
+    $fileTypes = array('jpg', 'jpeg', 'png'); // File extensions
 
     $fileParts = pathinfo($_FILES['Filedata']['name']);
 
     $fileSizeLimte = 5 * 1024 * 1024;
 
-
+  
 
     if ($_FILES['Filedata']['size'] > $fileSizeLimte) {
         echo 'code1'; //文件大小溢出

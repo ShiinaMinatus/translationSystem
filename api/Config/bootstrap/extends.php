@@ -574,7 +574,8 @@ function sendMail($address, $sendUserName, $sendUserPassword, $sendBodyText, $se
     $mail->Send();
 }
 
-function readDirFile($path) {
+function readDirFile($dirPath) {
+    $path = dirname($_SERVER['SCRIPT_FILENAME']) . $dirPath;
     $oDir = new DirectoryIterator($path);
     foreach ($oDir as $file) {
         if ($file->isfile()) {

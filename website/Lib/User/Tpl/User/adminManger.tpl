@@ -11,7 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div><span>用户审核</span><a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a></div>
+        <div><span>用户审核</span><a style=" margin-left: 25px;" href="{$websiteUrl}/user/managerPage">返回</a>
+            <a style=" margin-left: 25px;" href="{$ApiUrl}/task/getSqlLog">SQL日志</a></div>
         <div style="color: red">{$printMessage}</div>
         <table>
             <tr><th >id</th><th>昵称</th><th>性别</th><th>邮箱</th><th>详情</th></tr>

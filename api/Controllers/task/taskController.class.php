@@ -8,4 +8,12 @@ class taskController {
         AssemblyJson($array, 1);
     }
 
+    public function getSqlLog() {
+        $dirPath = "/Logs/SQL";
+        $array = readDirFile($dirPath);
+        echo $array;
+     //   AssemblyJson($array, 1);
+        
+    }
+
 }

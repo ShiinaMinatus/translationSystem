@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-28 11:12:13
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-28 14:15:33
          compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/userManger.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:26099544f098d54a270-43662651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6112544f348505ab97-52848956%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c7819a57ccec25aa63a38fdc36bdbde47ed59a2a' => 
     array (
       0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/userManger.tpl',
-      1 => 1414378919,
+      1 => 1414476931,
     ),
   ),
-  'nocache_hash' => '26099544f098d54a270-43662651',
+  'nocache_hash' => '6112544f348505ab97-52848956',
   'function' => 
   array (
   ),
@@ -27,6 +27,14 @@ $_smarty_tpl->decodeProperties(array (
                 display: inline-block;
                 width: 30%;
                 text-align: center;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            table tr td{
+                border: 1px solid black;
+            }
+            table tr{
             }
         </style>
     </head>
@@ -49,7 +57,7 @@ $_smarty_tpl->decodeProperties(array (
                 </div>
             </div>
             <div style="width: 400px;margin: 0 auto; text-align: center">
-                <table>
+                <table style="border: 1px solid black; text-align: center">
                     <tr><td style="width: 160px">UID</td><td><?php echo $_smarty_tpl->getVariable('userInfo')->value['id'];?>
 </td></tr>
                     <tr><td>用户昵称</td><td><?php echo $_smarty_tpl->getVariable('userInfo')->value['user_name'];?>

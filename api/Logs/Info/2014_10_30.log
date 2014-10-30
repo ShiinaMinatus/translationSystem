@@ -1,0 +1,16 @@
+Oct 30 10:55:51 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 30 10:55:51 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 30 10:56:02 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 30 10:56:02 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 30 10:57:00 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 30 10:57:00 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 30 10:57:04 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 30 10:57:04 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true

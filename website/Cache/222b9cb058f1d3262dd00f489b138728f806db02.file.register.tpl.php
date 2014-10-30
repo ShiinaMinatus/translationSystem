@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-28 16:38:43
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-30 11:18:46
          compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:24095544f561360cba3-58470913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:145085451ae16a26f91-50659329%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '222b9cb058f1d3262dd00f489b138728f806db02' => 
     array (
       0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl',
-      1 => 1414485512,
+      1 => 1414639119,
     ),
   ),
-  'nocache_hash' => '24095544f561360cba3-58470913',
+  'nocache_hash' => '145085451ae16a26f91-50659329',
   'function' => 
   array (
   ),
@@ -34,49 +34,232 @@ and open the template in the editor.
 " type = "text/javascript" ></script>
         <link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
 /uploadify/uploadify.css" />
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background:none repeat scroll 0% 0% #E7E8EB;
+            }
+            #bodyDIv{
+                margin: 0 auto;width: 1200px;background-color: white;min-height:500px; 
+            }
+            ul {
+                list-style:none;
+                margin-left: -40px;
+            }
+            ul li{
+                float: left;
+                height: 45px;
+                line-height: 45px;
+                width: 299px;
+                text-align: center;
+                border-top: 1px solid #E6E7EA;
+                border-bottom:  1px solid #E6E7EA;
+                border-left:  1px solid #E6E7EA;
+                font-weight: 400;
+                color: #bbb;
+            }
+            .selecLi{
+                background-color: #44B549;
+                color: white;
+            }
+            .MainDiv{
+                margin-left: 50px;
+                margin-top: 30px;
+            }
+            #registerBut{
+                background-color: #44B549;
+                border: none;
+                color: white;
+                width: 120px;
+                height: 30px;
+            }
+            .MainDiv input{
+                height: 30px;
+                padding-left: 10px
+            }
+            .errorDiv{
+                color: red; 
+                font-size: 12px;
+                margin-top: 10px;
+                display: none;
+                margin-left: 95px;
+
+            }
+            #checkCodeImg:hover{
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
-        <div style="margin: 0 auto;width: 1200px;margin-top:  100px;">
-            <form action="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
-/user/userRegister" method="post">
-                <div><span>用户名：</span><input id="userNmae" name="userName"style="margin-left: 32px;" type="text" value="" placeholder="请输入用户名"></div><br>
-                <div><span>密码：</span><input id="password" name="password" style="margin-left: 48px;" type="password" value="" placeholder="请输入密码"></div><br>
-                <div><span>重复密码：</span><input id="rePassword" name="rePassword" style="margin-left: 16px;" type="password" value="" placeholder="请输入密码"></div><br>
-                <div>
-                    <span>性别：</span>
-                    <select name="gender" style="margin-left: 40px;" >
-                        <option value="1">男</option>
-                        <option value="2">女</option>
-                    </select>
-                </div><br>
-                <div><span>电子邮箱：</span><input id="mail" name="mail" style="margin-left: 16px;" type="email" value="" placeholder="请输入邮箱"></div><br>
-                <div><span>手机号码：</span><input id="phone" name="phone" style="margin-left: 16px;" type="tel" value="" placeholder="请输入手机号码"></div><br>
-                <div>
-                    <span>身份证照片：</span>                        
-                    <div>
-                        <input id="upload_0" class="inputUploads"  type="file" multiple="multiple" />
-                        <input id="uploadUrlCardId" type="hidden" name="cardPhoto" value="">
-                    </div>
+        <div style="margin-top:  100px;">
+            <div id="bodyDIv">
+                <div id="regeditArea">
 
-                    <div id='upload_img1'></div>
+                    <?php if ($_smarty_tpl->getVariable('addFruit')->value==1){?>
+                        <ul>
+                            <li class="selecLi">1 基本信息</li>
+                            <li>2 邮箱激活</li>
+                            <li>3 信息登记</li>
+                            <li>4 等待审核</li>
+                        </ul>
+                        <div style="clear: both"></div>
+                        <form action="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/user/userRegister?regestType=1" method="post">
+                            <div class="MainDiv">
 
+                                <div><span>电子邮箱：</span><input id="mail" name="mail" style="margin-left: 16px;" type="email" value="" placeholder=" 请输入邮箱"></div>
+                                <div id="mailError" class="errorDiv"> 该邮箱已被使用请更换别的邮箱</div>
+                                <br>
+                                <div><span>密码：</span><input id="password" name="password" style="margin-left: 48px;" type="password" value="" placeholder=" 请输入密码"></div><br>
+                                <div><span>重复密码：</span><input id="rePassword" name="rePassword" style="margin-left: 16px;" type="password" value="" placeholder=" 请输入密码"></div><br>
+                                <div><span>验证码：</span><input id="checkCode" name="checkCode" style="margin-left: 31px;" type="text" value="" placeholder=" 请输入验证码">
+                                    <img id="checkCodeImg" src="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/user/getCode" style="    height: 30px;position: relative; top: 10px;">
+                                </div>
+                                <div id="codeError" class="errorDiv"> 验证码错误</div>
+                                <br>
+                                <input type="hidden" id="checkMail" value="">
+                                <input type="hidden" id="checkCodeInput" value="">
+                                <div><button id="registerBut">注册</button></div>
+                            </div>
+                        <?php }elseif($_smarty_tpl->getVariable('addFruit')->value=="error3"){?>
+                            <ul>
+                                <li class="selecLi">1 基本信息</li>
+                                <li>2 邮箱激活</li>
+                                <li>3 信息登记</li>
+                                <li>4 等待审核</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                            <div class="MainDiv">
+                                <div>注册失败，已有重复的邮箱存在。</div>
+                            </div>
+                        <?php }elseif($_smarty_tpl->getVariable('addFruit')->value==2){?>
+
+                            <ul>
+                                <li>1 基本信息</li>
+                                <li  class="selecLi">2 邮箱激活</li>
+                                <li>3 信息登记</li>
+                                <li>4 等待审核</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                            <div class="MainDiv">
+
+                                <form action="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/user/userRegister?regestType=0" method="post">
+
+                                    <div>恭喜你注册成功，请登陆注册邮箱激活该账号,并完成内容</div>
+                                <?php }elseif($_smarty_tpl->getVariable('addFruit')->value==3){?>
+                                    <ul>
+                                        <li>1 基本信息</li>
+                                        <li  >2 邮箱激活</li>
+                                        <li class="selecLi">3 信息登记</li>
+                                        <li>4 等待审核</li>
+
+                                    </ul>
+                                    <div style="clear: both"></div>
+                                    <div>恭喜你账号激活成功，请完善您的个人信息</div>
+                                    <form action="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/user/UserFillInformation?regestType=2&userId=<?php echo $_smarty_tpl->getVariable('userId')->value;?>
+" method="post">
+                                        <div>
+                                            <span>性别：</span>
+                                            <select name="gender" style="margin-left: 40px;" >
+                                                <option value="1">男</option>
+                                                <option value="2">女</option>
+                                            </select>
+                                        </div><br>
+                                        <div><span>用户昵称：</span><input id="userNmae" name="userName"style="margin-left: 16px;" type="text" value="" placeholder="请输入用户名"></div><br>
+                                        <div><span>手机号码：</span><input id="phone" name="phone" style="margin-left: 16px;" type="tel" value="" placeholder="请输入手机号码"></div><br>
+                                        <div>
+                                            <span>身份证照片：</span>                        
+                                            <div>
+                                                <input id="upload_0" class="inputUploads"  type="file" multiple="multiple" />
+                                                <input id="uploadUrlCardId" type="hidden" name="cardPhoto" value="">
+                                            </div>
+
+                                            <div id='upload_img1'></div>
+
+                                        </div>
+                                        <div>
+                                            <span>英语证书：</span>
+                                            <div>
+                                                <input id="upload_1" class="inputUploads"  type="file" multiple="multiple" />
+                                                <input id="certificatePhoto" type="hidden" name="certificatePhoto" value="">
+                                            </div>
+
+                                            <div id='upload_img2'></div>
+                                        </div>
+                                        <div><button id="registerBut">注册</button></div>
+                                        </div>
+                                    <?php }elseif($_smarty_tpl->getVariable('addFruit')->value==4){?>
+                                        <ul>
+                                            <li>1 基本信息</li>
+                                            <li  >2 邮箱激活</li>
+                                            <li >3 信息登记</li>
+                                            <li class="selecLi">4 等待审核</li>
+                                        </ul>
+                                        <div style="clear: both"></div>
+                                        <div class="MainDiv">
+                                            <div>您已经完成注册流程请等待审核。</div>
+                                        </div>
+                                    <?php }?>
+
+
+                                </form>
+                        </div>
                 </div>
-                <div>
-                    <span>英语证书：</span>
-                    <div>
-                        <input id="upload_1" class="inputUploads"  type="file" multiple="multiple" />
-                        <input id="certificatePhoto" type="hidden" name="certificatePhoto" value="">
-                    </div>
-
-                    <div id='upload_img2'></div>
-                </div>
-                <div><button id="registerBut">注册</button></div>
-            </form>
-            <input type="hidden" id="masterDir" value="<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
+                <input type="hidden" id="masterDir" value="<?php echo $_smarty_tpl->getVariable('MasterDirUrl')->value;?>
 ">
-        </div>
+            </div>
     </body>
     <script>
+        URLstring = $("#masterDir").val();
+        $("#mail").blur(function () {
+            if ($("#mail").val() == "") {
+                $("#checkMail").val("false");
+                $("#mailError").html("邮箱不能为空");
+                $("#mailError").show();
+            } else {
+                $.post(
+                        URLstring + "/website/user/checkMailMessage",
+                        {
+                            mail: $("#mail").val()
+                        },
+                function (rData) {
+
+                    if (rData === "true") {
+                        $("#checkMail").val("");
+                        $("#mailError").hide();
+                    }
+                    else {
+                        $("#checkMail").val("false");
+                        $("#mailError").show();
+                    }
+                });
+            }
+        });
+        $("#checkCode").blur(function () {
+            $.post(
+                    URLstring + "/website/user/checkRegisterCode",
+                    {
+                        checkCode: $("#checkCode").val()
+                    },
+            function (rData) {
+
+                if (rData === "true") {
+                    $("#checkCodeInput").val("");
+                    $("#codeError").hide();
+                }
+                else {
+                    $("#checkCodeInput").val("false");
+                    $("#codeError").show();
+                }
+            });
+        });
+        $("#checkCodeImg").click(function () {
+            $("#checkCodeImg").attr("src", URLstring + "/website/user/getCode?randomVal=" + Math.random());
+        });
         $("#registerBut").click(function () {
             var alertFlag = false;
             var alertText = "";
@@ -107,12 +290,20 @@ and open the template in the editor.
                 alertFlag = true;
                 alertText += "\r\n身份证件与证书必须上传";
             }
+            if ($("#checkCodeInput").val() == "false") {
+                alertFlag = true;
+                alertText += "\r\n" + $("#codeError").html();
+            }
+            if ($("#checkMail").val() == "false") {
+                alertFlag = true;
+                alertText += "\r\n" + $("#mail").html();
+            }
             if (alertFlag) {
                 alert(alertText);
                 return false;
             }
         });
-        URLstring = $("#masterDir").val();
+
         $('#upload_0').uploadify({
             'swf': URLstring + '/uploadify/uploadify.swf',
             'uploader': URLstring + '/uploadify/uploadify_group.php',
@@ -152,12 +343,12 @@ and open the template in the editor.
             'onUploadSuccess': function (file, data, response) {
                 $("#errorMessageDiv").hide();
                 if (data == "code2") {
-//                    $("#errorMessageDiv").show();
-//                    $("#errorMessage").html("上传图片失败，图片格式必须为jpg或者jpge格式");
+                    //                    $("#errorMessageDiv").show();
+                    //                    $("#errorMessage").html("上传图片失败，图片格式必须为jpg或者jpge格式");
                     alert("上传图片失败，图片格式必须为jpg或者jpge格式");
                 } else if (data == "code1") {
-//                    $("#errorMessageDiv").show();
-//                    $("#errorMessage").html("上传图片失败，由于微信限制图片大小必须小于64k");
+                    //                    $("#errorMessageDiv").show();
+                    //                    $("#errorMessage").html("上传图片失败，由于微信限制图片大小必须小于64k");
                     alert("上传图片失败，由于微信限制图片大小必须小于5M");
                 } else {
                     var json = eval("(" + data + ")");

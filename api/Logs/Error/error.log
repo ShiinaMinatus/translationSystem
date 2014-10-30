@@ -874,3 +874,574 @@ Stack trace:
 [28-Oct-2014 15:24:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
 [28-Oct-2014 15:24:06 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
 [28-Oct-2014 15:24:06 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:18:14 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:37:29 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:38:53 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:40:49 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:45:38 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: password in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 17
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 20
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: password in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 17
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 20
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:53:11 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 17:54:10 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined index: userName in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 16
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined index: gender in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 19
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined index: cardPhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 21
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined index: certificatePhoto in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 22
+[28-Oct-2014 18:05:24 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 11:25:17 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 11:25:17 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 11:25:17 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 11:35:45 Asia/Shanghai] PHP Notice:  Undefined index: id in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 70
+[29-Oct-2014 11:46:35 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo lik' at line 1' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(136): Db->query('UPDATE user_che...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(107): Db->update(Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php(32): ActiveRecord->save(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(86): userCheckModel->updateInfo('1', Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(85): userBLL->updateCheckUser('1', Array)
+#5 [internal function]: UserController->fillUserInformation()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 11:47:27 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo lik' at line 1' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(136): Db->query('UPDATE user_che...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(107): Db->update(Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php(32): ActiveRecord->save(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(86): userCheckModel->updateInfo('1', Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(85): userBLL->updateCheckUser('1', Array)
+#5 [internal function]: UserController->fillUserInformation()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 11:47:46 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo lik' at line 1' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(136): Db->query('UPDATE user_che...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(107): Db->update(Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userCheckModel.class.php(32): ActiveRecord->save(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(86): userCheckModel->updateInfo('1', Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(85): userBLL->updateCheckUser('1', Array)
+#5 [internal function]: UserController->fillUserInformation()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 12:18:56 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:18:56 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:18:56 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 12:24:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:24:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:24:30 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 17
+[29-Oct-2014 12:24:30 Asia/Shanghai] PHP Notice:  Undefined index: password in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[29-Oct-2014 12:24:30 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 12:24:35 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:24:35 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:24:35 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 17
+[29-Oct-2014 12:24:35 Asia/Shanghai] PHP Notice:  Undefined index: password in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 18
+[29-Oct-2014 12:24:35 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 12:53:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:53:54 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:53:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:53:57 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:53:57 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:53:57 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:54:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:03 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:54:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:20 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 12:54:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 12:54:54 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:32:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:32:18 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:32:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:32:18 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:03 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:03 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:03 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:12 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:12 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:33:12 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:33:12 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:34:59 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:34:59 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:34:59 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:34:59 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:34:59 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:35:22 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:35:22 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:35:22 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:35:22 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:35:22 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:38:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:38:10 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:38:10 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:38:10 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:38:16 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:38:16 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:38:16 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:38:16 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:44:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:44:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:44:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:44:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:44:37 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:44:37 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:44:37 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:44:37 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:45:40 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:45:40 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:45:40 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:45:40 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:45:43 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:45:43 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:45:43 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:45:43 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:06 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:06 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:06 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:06 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:23 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:23 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:23 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:23 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:41 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:41 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:41 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:41 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:54 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:46:54 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:46:54 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:23 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:23 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:23 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:57 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:47:57 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:47:57 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:47:57 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:48:31 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:48:31 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:48:31 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:48:31 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:48:31 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:21 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:26 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:26 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:26 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:30 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:36 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:36 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:36 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:36 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:36 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:40 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:40 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:40 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:40 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:40 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:46 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:49:46 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:46 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:49:46 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:49:46 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:50:05 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:50:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:50:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:50:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:50:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:50:20 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 13:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:02 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:11 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:11 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:11 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:26 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:27 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:51:33 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:33 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:51:33 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:07 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:52:09 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:09 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:09 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:52:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:47 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:52:47 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:53:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:53:44 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:44 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:53:44 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:44 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:53:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:53:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:53:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:54:14 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:14 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:54:14 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:14 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:54:41 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:41 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:41 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:54:48 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:48 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 13:54:48 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 13:54:48 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 14:22:04 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 14:22:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 14:22:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 14:22:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:07:56 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:07:56 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:07:56 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:22 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:22 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:22 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:26 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:26 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:30 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:30 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:32 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:32 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:32 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:44 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:44 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:44 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:55 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:55 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:55 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:08:59 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:08:59 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:08:59 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:09:16 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:09:16 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:09:16 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:09:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:09:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:09:21 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:09:23 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:09:23 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:09:23 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:09:24 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:09:24 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:09:24 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:09:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:09:27 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:09:27 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:10:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:10:34 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:10:34 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:10:52 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:10:52 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:10:52 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:11:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:11:21 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:11:34 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:38 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:11:38 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:11:38 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:45 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:11:45 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:11:45 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:11:45 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:12:01 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:12:01 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:12:01 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 56
+[29-Oct-2014 18:18:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:27 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:18:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:36 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:37 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:39 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:39 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:18:39 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_info_type' in 'field list'' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(279): Db->query('INSERT INTO use...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(92): Db->add(Array, Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userModel.class.php(25): ActiveRecord->add(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(41): userModel->addUserInfo(Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(67): userBLL->addUser('5')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(494): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(73): R('/user/checkUser...', 'User')
+#8 C:\xampp\htdocs\translationSystem\api\Config\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 18:18:40 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:57 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:58 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:18:58 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:18:58 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_info_type' in 'field list'' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(279): Db->query('INSERT INTO use...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(92): Db->add(Array, Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userModel.class.php(25): ActiveRecord->add(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(41): userModel->addUserInfo(Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(67): userBLL->addUser('5')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(494): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(73): R('/user/checkUser...', 'User')
+#8 C:\xampp\htdocs\translationSystem\api\Config\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 18:18:58 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:25 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:26 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:19:26 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_info_type' in 'field list'' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(279): Db->query('INSERT INTO use...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(92): Db->add(Array, Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userModel.class.php(25): ActiveRecord->add(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(41): userModel->addUserInfo(Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(67): userBLL->addUser('5')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(494): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(73): R('/user/checkUser...', 'User')
+#8 C:\xampp\htdocs\translationSystem\api\Config\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 18:19:26 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:19:30 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:19:30 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_info_type' in 'field list'' in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php:297
+Stack trace:
+#0 C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php(279): Db->query('INSERT INTO use...')
+#1 C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php(92): Db->add(Array, Array)
+#2 C:\xampp\htdocs\translationSystem\api\Model\DAL\userModel.class.php(25): ActiveRecord->add(Array)
+#3 C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php(41): userModel->addUserInfo(Array)
+#4 C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php(67): userBLL->addUser('5')
+#5 [internal function]: UserController->checkUserToUser()
+#6 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\extends.php(494): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\translationSystem\api\Config\bootstrap\bootstrap.php(73): R('/user/checkUser...', 'User')
+#8 C:\xampp\htdocs\translationSystem\api\Config\ in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 297
+[29-Oct-2014 18:19:30 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:24:32 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:24:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:24:34 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 18:24:34 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:24:34 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:25:25 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 18:25:25 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 18:25:25 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:23:17 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:23:17 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:23:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:23:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:23:21 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:15 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:15 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:15 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:15 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:18 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:18 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:18 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:18 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:27 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:27 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:27 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:27 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:24:28 Asia/Shanghai] PHP Fatal error:  Call to undefined method userCheckModel::getUserByMail() in C:\xampp\htdocs\translationSystem\api\Model\BLL\userBLL.class.php on line 58
+[29-Oct-2014 21:25:22 Asia/Shanghai] PHP Notice:  Undefined index: mail in C:\xampp\htdocs\translationSystem\api\Controllers\user\UserController.class.php on line 32
+[29-Oct-2014 21:25:22 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:22 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:25:22 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:22 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:25:32 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:32 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:25:32 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:32 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:25:37 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:37 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:25:37 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:25:37 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:45:39 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:45:39 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:45:39 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:45:39 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:45:50 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:46:08 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:46:08 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:46:08 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:46:08 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:46:14 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:46:14 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:46:14 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:46:14 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:48:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:48:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:48:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:48:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:48:00 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90
+[29-Oct-2014 21:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:50:20 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:50:38 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:50:38 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:53:09 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:53:09 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:53:09 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:58:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:58:21 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:58:21 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:58:46 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 21:58:46 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 21:58:46 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 22:32:42 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 22:32:42 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[29-Oct-2014 22:32:42 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[29-Oct-2014 22:32:42 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:55:51 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:55:51 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:55:51 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:55:51 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:56:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:56:02 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:56:02 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:56:02 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:57:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:57:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:57:00 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:57:00 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86

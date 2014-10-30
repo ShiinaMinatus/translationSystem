@@ -1,0 +1,472 @@
+Oct 29 11:25:17 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 11:25:17 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 11:25:18 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 11:25:18 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+1
+Oct 29 11:35:45 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:35:45 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 11:38:31 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:38:31 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 11:38:51 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:38:51 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 11:43:09 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:43:09 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 11:52:05 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:52:05 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 11:52:53 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 11:52:53 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 12:18:56 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 12:18:56 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:18:57 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 12:18:57 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+2
+Oct 29 12:19:05 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 12:19:05 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 12:20:22 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 12:20:22 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 12:24:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 12:24:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:24:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 12:24:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+3
+Oct 29 12:24:35 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 12:24:35 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:24:35 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 12:24:35 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+4
+Oct 29 12:53:54 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 12:53:54 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:53:57 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 12:53:57 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:54:03 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 12:54:03 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:54:20 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 12:54:20 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 12:54:54 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 12:54:54 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:32:18 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:32:18 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:33:03 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:33:03 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:33:05 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:33:05 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:33:07 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:33:07 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:33:12 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:33:12 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:34:59 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:34:59 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:35:22 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:35:22 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:38:10 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:38:10 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:38:16 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:38:16 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:44:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:44:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:44:37 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:44:37 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:45:40 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:45:40 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:45:43 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:45:43 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:06 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:06 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:21 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:21 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:23 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:23 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:41 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:41 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:46:54 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:46:54 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:47:00 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:47:00 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:47:04 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:47:04 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:47:23 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 13:47:23 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:47:57 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 13:47:57 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:48:31 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:48:31 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:21 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:21 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:26 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:26 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:36 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:36 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:40 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:40 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:49:46 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:49:46 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:50:05 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:50:05 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 29 13:50:20 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:50:20 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:02 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:02 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:07 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:07 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:11 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:11 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:26 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:26 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:27 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:27 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:51:33 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:51:33 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:52:07 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:52:07 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:52:07 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:52:07 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:52:09 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:52:09 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:52:47 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:52:47 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:53:05 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:53:05 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:53:44 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:53:44 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 13:53:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:53:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 29 13:54:14 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:54:14 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 29 13:54:41 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:54:41 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 13:54:48 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 13:54:48 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 29 14:22:04 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 14:22:04 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 29 18:11:46 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 18:11:46 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+5
+Oct 29 18:11:58 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:11:58 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:13:22 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:13:22 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:14:30 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:14:30 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:15:44 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:15:44 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:16:20 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:16:20 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:16:35 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:16:35 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:16:36 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:16:36 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:16:57 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:16:57 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 18:17:53 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:17:53 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 18:18:04 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 18:18:04 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 18:18:27 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 18:18:27 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+1
+Oct 29 18:18:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userLogin
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 29 18:18:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+1
+Oct 29 18:18:36 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:36 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}]
+Oct 29 18:18:37 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:37 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}
+Oct 29 18:18:40 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:40 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}]
+Oct 29 18:18:57 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:57 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}
+Oct 29 18:18:58 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:18:58 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}]
+Oct 29 18:19:25 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:19:25 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}
+Oct 29 18:19:26 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:19:26 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}]
+Oct 29 18:19:28 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:19:28 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}
+Oct 29 18:19:30 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:19:30 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}]
+Oct 29 18:24:32 [ERROR]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 18:24:32 [RETURN]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+{"id":"5","user_name":"xij1111","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"447850861@qq.com","user_id_card_photo":"1414577880.jpg","user_certificate_photo":"1414577882.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0"}
+Oct 29 18:24:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 18:24:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+true
+Oct 29 18:24:34 [ERROR]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 18:24:34 [RETURN]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+[]
+Oct 29 21:22:55 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 21:22:55 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 21:25:22 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:25:22 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:25:32 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:25:32 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:25:37 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:25:37 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:45:39 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:45:39 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:45:50 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:45:50 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:46:08 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:46:08 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:46:14 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:46:14 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:48:00 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:48:00 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true
+Oct 29 21:48:01 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 29 21:48:01 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userRegister
+6
+Oct 29 21:49:22 [ERROR]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 21:49:22 [RETURN]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+true
+Oct 29 21:49:49 [ERROR]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 29 21:49:49 [RETURN]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+true
+Oct 29 21:50:20 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:50:20 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"id":"6","user_name":"43221sss","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414590584.jpg","user_certificate_photo":"1414590587.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0","loginType":2}
+Oct 29 21:50:20 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 21:50:20 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+0
+Oct 29 21:50:38 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:50:38 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0","loginType":1}
+Oct 29 21:50:38 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:50:38 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+1
+Oct 29 21:53:09 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:53:09 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"id":"6","user_name":"43221sss","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414590584.jpg","user_certificate_photo":"1414590587.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0","loginType":2}
+Oct 29 21:58:21 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:58:21 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"id":"6","user_name":"43221sss","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414590584.jpg","user_certificate_photo":"1414590587.jpg","user_mail_type":"1","user_info_type":"1","user_is_check":"0","loginType":2}
+Oct 29 21:58:46 [ERROR]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 29 21:58:46 [RETURN]_null_192.168.0.112_/translationSystem/api/user/userLogin
+{"id":"6","user_name":"43221sss","user_password":"123456","user_phone":"13955555555","user_gender":"1","user_mail":"1806172629@qq.com","user_id_card_photo":"1414590584.jpg","user_certificate_photo":"1414590587.jpg","user_mail_type":"1","user_info_type":"0","user_is_check":"0","loginType":2}
+Oct 29 22:32:42 [ERROR]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 29 22:32:42 [RETURN]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+true

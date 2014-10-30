@@ -146,3 +146,53 @@ Oct 28 15:24:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
 SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
 Oct 28 15:24:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
 SELECT * FROM user  WHERE id= '1' 
+Oct 28 17:18:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 28 17:37:29 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:37:29 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:38:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:38:53 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:40:49 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:40:49 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:45:38 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:45:38 [SQL]_null_192.168.0.122_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:45:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 28 17:45:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","","","","","","")
+Oct 28 17:45:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 28 17:45:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","","","","","","")
+Oct 28 17:53:11 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:53:11 [SQL]_null_192.168.0.122_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:54:10 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 17:54:10 [SQL]_null_192.168.0.122_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 17:55:41 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 25
+Oct 28 18:03:19 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 25
+Oct 28 18:04:58 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 25
+Oct 28 18:05:05 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 25
+Oct 28 18:05:24 [SQL]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 28 18:05:24 [SQL]_null_192.168.0.122_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_name`,`user_password`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`) VALUES ("","123456","","","447850861@qq.com","","")
+Oct 28 18:05:35 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 26
+Oct 28 18:07:57 [SQL]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 26

@@ -15,7 +15,7 @@ if (!empty($_REQUEST['session_id'])) {
 $targetFolder = '/translationSystem/uploads'; // Relative to the root
 //$targetFolder = '/weixin_crm/uploads'; // Relative to the root
 
-$url = 'http://192.168.0.122/translationSystem/uploads/';
+$url = 'http://192.168.0.112/translationSystem/uploads/';
 //$url = 'http://localhost/weixin_crm/uploads/';
 
 

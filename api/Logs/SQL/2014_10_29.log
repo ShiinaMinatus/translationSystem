@@ -1,0 +1,460 @@
+Oct 29 11:25:17 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 11:25:17 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("447850861@qq.com","123456")
+Oct 29 11:35:45 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 1
+Oct 29 11:38:31 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 1
+Oct 29 11:38:51 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 1
+Oct 29 11:43:09 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 1
+Oct 29 11:46:35 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo like "1414554393.jpg",user_info_type = 1 WHERE id = 1
+Oct 29 11:47:27 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo like "1414554393.jpg",user_info_type = 1 WHERE id = 1
+Oct 29 11:47:46 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name like "admin",user_id_card_photo like "1414554387.jpg",user_certificate_photo like "1414554393.jpg",user_info_type = 1 WHERE id = 1
+Oct 29 11:52:05 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "admin",user_id_card_photo = "1414554387.jpg",user_certificate_photo = "1414554393.jpg",user_info_type = 1 WHERE id = 1
+Oct 29 11:52:53 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "admin",user_id_card_photo = "1414554387.jpg",user_certificate_photo = "1414554393.jpg",user_info_type = 1 WHERE id = 1
+Oct 29 12:18:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 12:18:56 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("447850861@qq.com","123456")
+Oct 29 12:19:05 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 2
+Oct 29 12:20:22 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "admin",user_id_card_photo = "1414556415.jpg",user_certificate_photo = "1414556418.jpg",user_info_type = 1 WHERE id = 2
+Oct 29 12:24:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 12:24:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("","")
+Oct 29 12:24:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 12:24:35 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("","")
+Oct 29 12:53:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 12:53:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 29 12:53:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 12:53:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 12:54:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 12:54:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='447850861@qq.com' 
+Oct 29 12:54:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 12:54:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 29 12:54:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 12:54:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:32:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:32:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:03 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:33:12 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:34:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:34:59 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:35:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:35:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:38:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:38:10 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:38:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:38:16 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:44:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:44:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:44:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:44:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:45:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:45:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:45:43 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:45:43 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:06 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:46:54 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:47:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:47:00 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:47:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:47:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:47:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 13:47:23 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 29 13:47:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 13:47:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 29 13:48:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:48:31 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:49:46 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:50:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:50:05 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij11191@gmail.com' 
+Oct 29 13:50:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:50:20 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:02 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:11 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:51:33 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:07 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:09 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:47 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:52:47 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:53:05 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:53:05 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 13:53:44 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:53:44 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:53:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:53:50 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:54:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:54:14 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 13:54:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 13:54:41 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 13:54:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='44785086121@qq.com' 
+Oct 29 13:54:48 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='44785086121@qq.com' 
+Oct 29 14:22:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 14:22:04 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 29 18:07:56 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4472850861@qq.com' 
+Oct 29 18:08:22 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 18:08:26 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:08:30 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478250861@qq.com' 
+Oct 29 18:08:32 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478250861@qq.com' 
+Oct 29 18:08:44 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478250861@qq.com' 
+Oct 29 18:08:55 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:08:59 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:09:16 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:09:21 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4417850861@qq.com' 
+Oct 29 18:09:23 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4417850861@qq.com' 
+Oct 29 18:09:24 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4417850861@qq.com' 
+Oct 29 18:09:27 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:10:34 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:10:52 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:21 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:38 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:45 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 18:11:45 [SQL]_null_0.0.0.0_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("447850861@qq.com","123456")
+Oct 29 18:11:58 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:12:01 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 18:13:22 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:14:30 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:15:44 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:16:20 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:16:35 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:16:36 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:16:57 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "admin1",user_id_card_photo = "1414577812.jpg",user_certificate_photo = "1414577814.jpg",user_info_type = 1 WHERE id = 5
+Oct 29 18:17:53 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 18:18:04 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "xij1111",user_id_card_photo = "1414577880.jpg",user_certificate_photo = "1414577882.jpg",user_info_type = 1 WHERE id = 5
+Oct 29 18:18:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='123456' 
+Oct 29 18:18:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 29 18:18:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 29 18:18:36 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:18:37 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:18:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:18:39 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+INSERT INTO user (`user_name`,`user_password`,`user_education`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`,`user_mail_type`,`user_info_type`,`user_is_check`) VALUES ("xij1111","123456","","13955555555","1","447850861@qq.com","1414577880.jpg","1414577882.jpg","1","1","0")
+Oct 29 18:18:40 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:18:57 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:18:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:18:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+INSERT INTO user (`user_name`,`user_password`,`user_education`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`,`user_mail_type`,`user_info_type`,`user_is_check`) VALUES ("xij1111","123456","","13955555555","1","447850861@qq.com","1414577880.jpg","1414577882.jpg","1","1","0")
+Oct 29 18:18:58 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:19:25 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:19:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:19:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+INSERT INTO user (`user_name`,`user_password`,`user_education`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`,`user_mail_type`,`user_info_type`,`user_is_check`) VALUES ("xij1111","123456","","13955555555","1","447850861@qq.com","1414577880.jpg","1414577882.jpg","1","1","0")
+Oct 29 18:19:26 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:19:28 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:19:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:19:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+INSERT INTO user (`user_name`,`user_password`,`user_education`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`,`user_mail_type`,`user_info_type`,`user_is_check`) VALUES ("xij1111","123456","","13955555555","1","447850861@qq.com","1414577880.jpg","1414577882.jpg","1","1","0")
+Oct 29 18:19:30 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:24:32 [SQL]_null_0.0.0.0_/translationSystem/api/user/getCheckUserById
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:24:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+SELECT * FROM user_check_list  WHERE id = 5 
+Oct 29 18:24:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+INSERT INTO user (`user_name`,`user_password`,`user_education`,`user_phone`,`user_gender`,`user_mail`,`user_id_card_photo`,`user_certificate_photo`,`user_mail_type`) VALUES ("xij1111","123456","","13955555555","1","447850861@qq.com","1414577880.jpg","1414577882.jpg","1")
+Oct 29 18:24:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserToUser
+DELETE FROM user_check_list
+Oct 29 18:24:34 [SQL]_null_0.0.0.0_/translationSystem/api/user/checkUserAll
+SELECT * FROM user_check_list  WHERE user_mail_type='1' and user_is_check='0' 
+Oct 29 18:25:25 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 21:22:55 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 5
+Oct 29 21:23:17 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='447850861@qq.com' 
+Oct 29 21:23:21 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478520861@qq.com' 
+Oct 29 21:24:15 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 21:24:18 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 21:24:27 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:24:28 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:24:28 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:24:28 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:25:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:25:22 [SQL]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='xij1111@gmail.com' 
+Oct 29 21:25:32 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478520861@qq.com' 
+Oct 29 21:25:32 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='4478520861@qq.com' 
+Oct 29 21:25:37 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='4478520861@qq.com' 
+Oct 29 21:25:37 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='4478520861@qq.com' 
+Oct 29 21:45:39 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:45:39 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:45:50 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:45:50 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:46:08 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:46:08 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:46:14 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:46:14 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:48:00 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:48:00 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='1806172629@qq.com' 
+Oct 29 21:48:00 [SQL]_null_192.168.0.112_/translationSystem/api/user/userRegister
+INSERT INTO user_check_list (`user_mail`,`user_password`) VALUES ("1806172629@qq.com","123456")
+Oct 29 21:49:22 [SQL]_null_192.168.0.112_/translationSystem/api/user/checkUserActivation
+UPDATE user_check_list SET user_mail_type = 1 WHERE id = 6
+Oct 29 21:49:49 [SQL]_null_192.168.0.112_/translationSystem/api/user/fillUserInformation
+UPDATE user_check_list SET user_phone = 13955555555,user_gender = 1,user_name = "43221sss",user_id_card_photo = "1414590584.jpg",user_certificate_photo = "1414590587.jpg",user_info_type = 1 WHERE id = 6
+Oct 29 21:50:20 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:50:20 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user_check_list  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:50:20 [SQL]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='6' and authority_type='1' 
+Oct 29 21:50:38 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='admin' and user_password='654321' 
+Oct 29 21:50:38 [SQL]_null_192.168.0.112_/translationSystem/api/user/userAuthority
+SELECT * FROM authority  WHERE user_id='1' and authority_type='1' 
+Oct 29 21:53:09 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:53:09 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user_check_list  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:58:21 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:58:21 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user_check_list  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:58:46 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 21:58:46 [SQL]_null_192.168.0.112_/translationSystem/api/user/userLogin
+SELECT * FROM user_check_list  WHERE user_mail='1806172629@qq.com' and user_password='123456' 
+Oct 29 22:32:42 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 29 22:32:42 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 

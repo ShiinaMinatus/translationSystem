@@ -452,3 +452,95 @@ Oct 28 15:24:06 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
 {"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
 Oct 28 15:24:06 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userSingleInfo
 {"id":"1","user_name":"admin","user_password":"654321","user_gender":"1","user_mail":"admin","user_phone":"13955555555","user_coin":"0","user_alive":"0","user_mail_type":"0"}
+Oct 28 17:18:14 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: data","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":75}
+Oct 28 17:18:14 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+true
+Oct 28 17:37:29 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:37:29 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:38:53 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:38:53 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:40:49 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:40:49 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:45:38 [ERROR]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:45:38 [RETURN]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:45:39 [ERROR]_null_192.168.0.122_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:45:39 [RETURN]_null_192.168.0.122_/translationSystem/api/user/userRegister
+21
+Oct 28 17:45:49 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:45:49 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+20
+Oct 28 17:45:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:45:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:45:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:45:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+22
+Oct 28 17:45:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:45:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:45:50 [ERROR]_null_0.0.0.0_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:45:50 [RETURN]_null_0.0.0.0_/translationSystem/api/user/userRegister
+23
+Oct 28 17:53:11 [ERROR]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:53:11 [RETURN]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:53:13 [ERROR]_null_192.168.0.122_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:53:13 [RETURN]_null_192.168.0.122_/translationSystem/api/user/userRegister
+24
+Oct 28 17:54:10 [ERROR]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 17:54:10 [RETURN]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+false
+Oct 28 17:54:11 [ERROR]_null_192.168.0.122_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 17:54:11 [RETURN]_null_192.168.0.122_/translationSystem/api/user/userRegister
+25
+Oct 28 17:55:41 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 17:55:41 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true
+Oct 28 18:03:19 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 18:03:19 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true
+Oct 28 18:04:58 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 18:04:58 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true
+Oct 28 18:05:05 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 18:05:05 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true
+Oct 28 18:05:24 [ERROR]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+{"type":8,"message":"Undefined variable: result","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":86}
+Oct 28 18:05:24 [RETURN]_null_192.168.0.122_/translationSystem/api/user/isSetMail
+false
+Oct 28 18:05:26 [ERROR]_null_192.168.0.122_/translationSystem/api/user/userRegister
+{"type":8,"message":"Undefined variable: options","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\ActiveRecord.class.php","line":90}
+Oct 28 18:05:26 [RETURN]_null_192.168.0.122_/translationSystem/api/user/userRegister
+26
+Oct 28 18:05:35 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 18:05:35 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true
+Oct 28 18:07:57 [ERROR]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+{"type":8192,"message":"mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead","file":"C:\\xampp\\htdocs\\translationSystem\\api\\Config\\DB\\Db.class.php","line":49}
+Oct 28 18:07:57 [RETURN]_null_192.168.0.122_/translationSystem/api/user/checkUserActivation
+true

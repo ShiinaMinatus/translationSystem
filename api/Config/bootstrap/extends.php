@@ -550,6 +550,8 @@ function json_filter($o) {
 }
 
 function sendMail($address, $sendUserName, $sendUserPassword, $sendBodyText, $sendTitle) {
+    $sendUserName="no-reply@humnw.com";
+    $sendUserPassword="0okm9ijn";
     include ROOT_DIR . '/Plug/PHPMailer/class.smtp.php';
     require ROOT_DIR . '/Plug/PHPMailer/class.phpmailer.php';
     date_default_timezone_set('PRC');

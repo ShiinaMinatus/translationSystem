@@ -9,8 +9,8 @@ defined('WebSiteName') or define('WebSiteName', 'website');
 
 
 defined('WebSiteName1') or define('WebSiteName1', '/translationSystem');
-defined('PHOTO_URL') or define('PHOTO_URL', 'http://192.168.0.122/translationSystem/uploads/'); //定义图片路径
-defined('API_URL') or define('API_URL', 'http://192.168.0.122/translationSystem/api/'); //定义apiUrl
+defined('PHOTO_URL') or define('PHOTO_URL', 'http://192.168.0.112/translationSystem/uploads/'); //定义图片路径
+defined('API_URL') or define('API_URL', 'http://192.168.0.112/translationSystem/api/'); //定义apiUrl
 
 defined('ROOT_DIR') or define('ROOT_DIR', $_SERVER['DOCUMENT_ROOT'] . WebSiteName1 . '/' . WebSiteName);
 

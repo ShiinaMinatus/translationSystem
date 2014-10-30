@@ -6,6 +6,7 @@ date_default_timezone_set('Asia/Shanghai');
  * 路径定义
  */
 defined('ROOT_DIR') or define('ROOT_DIR', dirname($_SERVER['SCRIPT_FILENAME']) . '/');
+defined('MailAddress') or define('MailAddress', "http://192.168.0.112");
 
 defined('WebSiteName') or define('WebSiteName', 'resume_api');
 

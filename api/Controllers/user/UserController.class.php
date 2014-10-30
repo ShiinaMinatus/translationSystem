@@ -7,24 +7,21 @@ class UserController {
 
         $userName = $_REQUEST["userName"];
         $password = $_REQUEST["password"];
-        $array = $resumeBLL->loginInfo($userName, $password);
+        $array = $resumeBLL->loginInfo2($userName, $password);
         AssemblyJson($array, 1);
     }
 
     public function userRegister() {
         $resumeBLL = new userBLL();
-        $checkUserData['user_name'] = $_POST['userName'];
-        $checkUserData['user_password'] = $_POST['password'];
-        $checkUserData['user_phone'] = $_POST['phone'];
-        $checkUserData['user_gender'] = $_POST['gender'];
+
         $checkUserData['user_mail'] = $_POST['mail'];
-        $checkUserData['user_id_card_photo'] = $_POST['cardPhoto'];
-        $checkUserData['user_certificate_photo'] = $_POST['certificatePhoto'];
+        $checkUserData['user_password'] = $_POST['password'];
+
         $array = $resumeBLL->addCheckUser($checkUserData);
 
         if ($array > 0) {
             $mailText = "请点击下方连接以激活账户：<br>" .
-                    "http://localhost/translationSystem/website/user/checkUserActivation?userId=$array";
+                    MailAddress . "/translationSystem/website/user/checkUserActivation?userId=$array";
             sendMail($checkUserData['user_mail'], "447850861@qq.com", "13917276351a", $mailText, "验证邮件");
         }
         AssemblyJson($array, 1);
@@ -32,7 +29,15 @@ class UserController {
 
     public function isSetMail() {
         $resumeBLL = new userBLL();
-        $array = $resumeBLL->seachBymail($_POST["mail"]);
+        $mail = $_POST["mail"];
+       // $mail = "xij1111@gmail.com";
+        $userMail = $resumeBLL->seachBymail($mail);
+        $userCheckMail = $resumeBLL->seachCheckBymail($mail);
+        if (!$userCheckMail && !$userMail) {
+            $array = true;
+        } else {
+            $array = false;
+        }
         AssemblyJson($array, 1);
     }
 
@@ -69,11 +74,23 @@ class UserController {
     }
 
     public function checkUserActivation() {
-
         $id = $_POST["id"];
         $data["user_mail_type"] = 1;
         $resumeBLL = new userBLL();
         $array = $resumeBLL->updateCheckUser($id, $data);
+        AssemblyJson($array, 1);
+    }
+
+    public function fillUserInformation() {
+        $id = $_POST["id"];
+        $checkUserData['user_phone'] = $_POST['phone'];
+        $checkUserData['user_gender'] = $_POST['gender'];
+        $checkUserData['user_name'] = $_POST['userName'];
+        $checkUserData['user_id_card_photo'] = $_POST['cardPhoto'];
+        $checkUserData['user_certificate_photo'] = $_POST['certificatePhoto'];
+        $checkUserData["user_info_type"] = 1;
+        $resumeBLL = new userBLL();
+        $array = $resumeBLL->updateCheckUser($id, $checkUserData);
         AssemblyJson($array, 1);
     }
 

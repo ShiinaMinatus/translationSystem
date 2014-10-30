@@ -98,7 +98,7 @@ class Db {
                     $set[] = $k . ' = ' . $v;
                 } else {
 
-                    $set[] = $k . ' like "' . $v . '"';
+                    $set[] = $k . ' = "' . $v . '"';
                 }
             }
         }

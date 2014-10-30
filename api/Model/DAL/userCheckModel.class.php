@@ -32,6 +32,16 @@ class userCheckModel extends ActiveRecord {
         return $this->where('id = ' . $id)->save($data);
     }
 
+    public function getCheckUserByMail($mail) {
+        $this->where("user_mail ='$mail'")->select();
+        return $this;
+    }
+
+    public function getCheckUserByNameAndPassword($userName, $password) {
+        $this->where("user_mail='" . $userName . "' and user_password='" . $password . "'")->select();
+        return $this;
+    }
+
 }
 
 ?>

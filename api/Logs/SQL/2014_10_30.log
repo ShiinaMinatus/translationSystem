@@ -1,0 +1,16 @@
+Oct 30 10:55:51 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 30 10:55:51 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 30 10:56:02 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 30 10:56:02 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 30 10:57:00 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 30 10:57:00 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 
+Oct 30 10:57:04 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user  WHERE user_mail ='' 
+Oct 30 10:57:04 [SQL]_null_192.168.0.112_/translationSystem/api/user/isSetMail
+SELECT * FROM user_check_list  WHERE user_mail ='' 

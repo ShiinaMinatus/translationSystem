@@ -21,13 +21,13 @@
                 <div style="height: 45px"></div>
                 <form action="{$websiteUrl}/user/userLogin" method="post">
                     <div style="color: red">{$userError}</div>
-                    
+
                     <div><span>用户名：</span><input id="userNmae" name="userName" type="text" value="" placeholder="请输入用户名"></div>
                     <div style="height: 45px"></div>
                     <div><span>密码：</span><input style="margin-left: 16px;" id="password" name="password" type="password" value="" placeholder="密码"></div>
                     <div style="height: 45px"></div>
 
-                    <div><button>登入</button><a style="font-size: 12px;margin-left: 15px;" href="{$websiteUrl}/user/register">没有账号？</a>
+                    <div><button>登入</button><a style="font-size: 12px;margin-left: 15px;" href="{$websiteUrl}/user/register?registerType=1">没有账号？</a>
                         <a style="font-size: 12px;margin-left: 15px;"  href="{$websiteUrl}/user/findPasswrd">找回密码？</a></div></div>
         </form>
     </div>

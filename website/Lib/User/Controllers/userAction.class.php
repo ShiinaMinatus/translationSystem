@@ -16,7 +16,6 @@ class UserAction extends Action {
             $re = transferData(API_URL . "user/userLogin", "post", $data);
 
             $reValue = json_decode($re, true);
-
             if ($reValue == 1) {
                 $this->assign("userError", "用户名或密码错误");
                 $this->display();
@@ -24,13 +23,28 @@ class UserAction extends Action {
 
                 $_SESSION["userId"] = $reValue['id'];
                 $_SESSION["userName"] = $reValue['user_name'];
-                $postData["id"] = $reValue['id'];
-                $reAuthority = transferData(API_URL . "user/userAuthority", "post", $postData);
-                $reAuthority = json_decode($reAuthority, true);
-                isLogin();
-                $this->assign("authority", $reAuthority);
-                $this->assign("userInfo", $reValue);
-                $this->display('userManger');
+                if ($reValue["loginType"] == 1) {
+                    $postData["id"] = $reValue['id'];
+                    $reAuthority = transferData(API_URL . "user/userAuthority", "post", $postData);
+                    $reAuthority = json_decode($reAuthority, true);
+                    isLogin();
+                    $this->assign("authority", $reAuthority);
+                    $this->assign("userInfo", $reValue);
+                    $this->display('userManger');
+                } else if ($reValue["loginType"] == 2) {
+                    $_REQUEST['registerType'] = 2;
+
+                    if ($reValue['user_mail_type'] == 0) {
+                        $this->assign("addFruit", 2);
+                        $this->register();
+                    } else if ($reValue['user_info_type'] == 0) {
+                        $this->assign("addFruit", 3);
+                        $this->register();
+                    } else if ($reValue['user_is_check'] == 0) {
+                        $this->assign("addFruit", 4);
+                        $this->register();
+                    }
+                }
             }
         } else {
             $this->display();
@@ -38,29 +52,83 @@ class UserAction extends Action {
     }
 
     function register() {
-        $this->display();
+        if ($_REQUEST["registerType"] == 1 || !isset($_REQUEST["registerType"])) {
+            $this->assign("addFruit", 1);
+        }
+
+        $this->display("register");
+    }
+
+    function getCode() {
+        getCode();
+    }
+
+    function checkRegisterCode() {
+        $checkCode = $_REQUEST['checkCode'];
+        $checkCode = strtolower($checkCode);
+        $localCheckCode = $_SESSION['code'];
+        $localCheckCode = strtolower($localCheckCode);
+        if ($checkCode == $localCheckCode) {
+            echo 'true';
+        } else {
+            echo 'false';
+        }
+    }
+
+    function checkUserActivation() {
+        $data["id"] = $_GET["userId"];
+        $reValue = transferData(API_URL . "user/checkUserActivation", "post", $data);
+        $reValue = json_decode($reValue, true);
+        if ($reValue) {
+//            $this->assign("activationValue", "恭喜你账号激活成功，请完善您的个人信息");
+            $this->assign("userId", $_GET["userId"]);
+            $_REQUEST['registerType'] = 2;
+            $this->assign("addFruit", 3);
+            $this->register();
+        } else {
+            $this->assign("activationValue", "账号激活失败，请联系管理员");
+            $this->display();
+        }
     }
 
     function userRegister() {
+        $regeditType = $_REQUEST['regestType'];
+
         $mail['mail'] = $_POST['mail'];
         $reMail = transferData(API_URL . "user/isSetMail", "post", $mail);
         $reMail = json_decode($reMail, true);
 
-        if ($reMail) {
-            $returnValue = 3;
+        if (!$reMail) {
+            $returnValue = "error3";
         } else {
 
             $re = transferData(API_URL . "user/userRegister", "post", $_POST);
             $reValue = json_decode($re, true);
             if ($reValue > 0) {
-                $returnValue = 1;
-            } else {
                 $returnValue = 2;
+            } else {
+                $returnValue = "error2";
+                $this->assign("addFruit", $returnValue);
+                $this->display("userRegister");
+                die;
             }
         }
-
         $this->assign("addFruit", $returnValue);
-        $this->display();
+        $this->display("register");
+    }
+
+    function UserFillInformation() {
+        $_POST["id"] = $_GET["userId"];
+        $reValue = transferData(API_URL . "user/fillUserInformation", "post", $_POST);
+        $reValue = json_decode($reValue, true);
+        if ($reValue) {
+            $_REQUEST['registerType'] = 3;
+            $this->assign("addFruit", 4);
+            $this->register();
+        } else {
+            $this->assign("addFruit", "数据提交失败");
+            $this->display("userRegister");
+        }
     }
 
     function adminManger() {
@@ -98,18 +166,6 @@ class UserAction extends Action {
             $this->assign("checkUser", $returnValue);
             $this->display('adminManger');
         }
-    }
-
-    function checkUserActivation() {
-        $data["id"] = $_GET["userId"];
-        $reValue = transferData(API_URL . "user/checkUserActivation", "post", $data);
-        $reValue = json_decode($reValue, true);
-        if ($reValue) {
-            $this->assign("activationValue", "恭喜你账号激活成功，审核结果将会通过邮件发送至你的注册邮箱");
-        } else {
-            $this->assign("activationValue", "账号激活失败，请联系管理员");
-        }
-        $this->display();
     }
 
     function rejectUser() {
@@ -206,6 +262,20 @@ class UserAction extends Action {
         $rePhoneType = json_decode($rePhoneType, true);
         $returnValue = "";
         if ($rePhoneType) {
+            $returnValue = "true";
+        } else {
+            $returnValue = "false";
+        }
+        echo $returnValue;
+    }
+
+    function checkMailMessage() {
+        $postData['mail'] = $_REQUEST['mail'];
+        $reMail = transferData(API_URL . "user/isSetMail", "post", $postData);
+        $reMail = json_decode($reMail, true);
+        $returnValue = "";
+
+        if ($reMail) {
             $returnValue = "true";
         } else {
             $returnValue = "false";

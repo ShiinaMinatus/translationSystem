@@ -15,6 +15,29 @@ class userBLL {
         return $array;
     }
 
+    //2014年10月29日21:25:57 登陆模式2
+    public function loginInfo2($userName, $password) {
+
+        $userDal = new userModel();
+        $userinfo = $userDal->getUserByNameAndPassword($userName, $password);
+        $array = array();
+
+        if ($userinfo->vars_number < 1) {
+            $userCheckDal = new userCheckModel();
+            $userCheckinfo = $userCheckDal->getCheckUserByNameAndPassword($userName, $password);
+            if ($userCheckinfo->vars_number < 1) {
+                $array = 1;
+            } else {
+                $array = $userCheckinfo->vars;
+                $array["loginType"] = 2;
+            }
+        } else {
+            $array = $userinfo->vars;
+            $array["loginType"] = 1;
+        }
+        return $array;
+    }
+
     public function addCheckUser($userInfoArray) {
         if (is_array($userInfoArray)) {
             $userCheck = new userCheckModel();
@@ -37,6 +60,8 @@ class userBLL {
         $userDal = new userModel();
         $userId = $checkUserData['id'];
         unset($checkUserData['id']);
+        unset($checkUserData['user_info_type']);
+        unset($checkUserData['user_is_check']);
 
         $addValue = $userDal->addUserInfo($checkUserData);
         if ($addValue > 0) {
@@ -48,6 +73,12 @@ class userBLL {
     public function seachBymail($mail) {
         $userDal = new userModel();
         $userinfo = $userDal->getUserByMail($mail);
+        return $userinfo->vars_number > 0;
+    }
+
+    public function seachCheckBymail($mail) {
+        $userDal = new userCheckModel();
+        $userinfo = $userDal->getCheckUserByMail($mail);
         return $userinfo->vars_number > 0;
     }
 

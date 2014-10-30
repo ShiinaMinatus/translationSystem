@@ -70,6 +70,7 @@ and open the template in the editor.
         </style>
     </head>
     <body>
+        <iframe frameborder="0" seamless="seamless" src="{$websiteUrl}/titleBanner.html" width="100%"></iframe>
         <div style="margin-top:  100px;">
             <div id="bodyDIv">
                 <div id="regeditArea">

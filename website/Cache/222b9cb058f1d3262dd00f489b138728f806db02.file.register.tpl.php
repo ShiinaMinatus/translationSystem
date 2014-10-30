@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-30 11:18:46
+<?php /* Smarty version Smarty-3.0-RC2, created on 2014-10-30 14:00:49
          compiled from "C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:145085451ae16a26f91-50659329%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:159135451d411c65c40-06446782%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '222b9cb058f1d3262dd00f489b138728f806db02' => 
     array (
       0 => 'C:/xampp/htdocs/translationSystem/website/Lib/User/Tpl/User/register.tpl',
-      1 => 1414639119,
+      1 => 1414648848,
     ),
   ),
-  'nocache_hash' => '145085451ae16a26f91-50659329',
+  'nocache_hash' => '159135451d411c65c40-06446782',
   'function' => 
   array (
   ),
@@ -92,6 +92,8 @@ and open the template in the editor.
         </style>
     </head>
     <body>
+        <iframe frameborder="0" seamless="seamless" src="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/titleBanner.html" width="100%"></iframe>
         <div style="margin-top:  100px;">
             <div id="bodyDIv">
                 <div id="regeditArea">

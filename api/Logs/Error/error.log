@@ -1445,3 +1445,12 @@ Stack trace:
 [30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
 [30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
 [30-Oct-2014 10:57:04 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[31-Oct-2014 09:59:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[31-Oct-2014 09:59:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[31-Oct-2014 09:59:05 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[31-Oct-2014 09:59:05 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[31-Oct-2014 09:59:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[31-Oct-2014 09:59:28 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[31-Oct-2014 09:59:28 Asia/Shanghai] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 75
+[31-Oct-2014 09:59:28 Asia/Shanghai] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\translationSystem\api\Config\DB\Db.class.php on line 86
+[31-Oct-2014 09:59:28 Asia/Shanghai] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\translationSystem\api\Config\DB\ActiveRecord.class.php on line 90

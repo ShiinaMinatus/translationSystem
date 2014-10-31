@@ -16,7 +16,7 @@ and open the template in the editor.
             body{
                 margin: 0;
                 padding: 0;
-                background:none repeat scroll 0% 0% #E7E8EB;
+
             }
             #bodyDIv{
                 margin: 0 auto;width: 1200px;background-color: white;min-height:500px; 
@@ -56,6 +56,10 @@ and open the template in the editor.
                 height: 30px;
                 padding-left: 10px
             }
+            .MainDiv select{
+                height: 30px;
+                padding-left: 10px
+            }
             .errorDiv{
                 color: red; 
                 font-size: 12px;
@@ -69,10 +73,11 @@ and open the template in the editor.
             }
         </style>
     </head>
-    <body>
-        <iframe frameborder="0" seamless="seamless" src="{$websiteUrl}/titleBanner.html" width="100%"></iframe>
-        <div style="margin-top:  100px;">
-            <div id="bodyDIv">
+    <body style="background:none repeat scroll 0% 0% #E7E8EB;">
+
+        <div style="">
+            <iframe frameborder="0" seamless="seamless" src="{$websiteUrl}/titleBanner.html" width="100%" height="100"></iframe>
+            <div id="bodyDIv" style="margin-top: 50px">
                 <div id="regeditArea">
 
                     {if $addFruit eq 1}
@@ -125,66 +130,68 @@ and open the template in the editor.
                                 <form action="{$websiteUrl}/user/userRegister?regestType=0" method="post">
 
                                     <div>恭喜你注册成功，请登陆注册邮箱激活该账号,并完成内容</div>
-                                {else if $addFruit eq 3}
-                                    <ul>
-                                        <li>1 基本信息</li>
-                                        <li  >2 邮箱激活</li>
-                                        <li class="selecLi">3 信息登记</li>
-                                        <li>4 等待审核</li>
+                            </div>
+                        {else if $addFruit eq 3}
+                            <ul>
+                                <li>1 基本信息</li>
+                                <li  >2 邮箱激活</li>
+                                <li class="selecLi">3 信息登记</li>
+                                <li>4 等待审核</li>
 
-                                    </ul>
-                                    <div style="clear: both"></div>
-                                    <div>恭喜你账号激活成功，请完善您的个人信息</div>
-                                    <form action="{$websiteUrl}/user/UserFillInformation?regestType=2&userId={$userId}" method="post">
+                            </ul>
+                            <div style="clear: both"></div>
+                            <div class="MainDiv">
+                                <div style="margin-bottom: 15px;">恭喜你账号激活成功，请完善您的个人信息</div>
+                                <form action="{$websiteUrl}/user/UserFillInformation?regestType=2&userId={$userId}" method="post">
+                                    <div>
+                                        <span>性别：</span>
+                                        <select name="gender" style="margin-left: 40px;" >
+                                            <option value="1">男</option>
+                                            <option value="2">女</option>
+                                        </select>
+                                    </div><br>
+                                    <div><span>用户昵称：</span><input id="userNmae" name="userName"style="margin-left: 16px;" type="text" value="" placeholder="请输入用户名"></div><br>
+                                    <div><span>手机号码：</span><input id="phone" name="phone" style="margin-left: 16px;" type="tel" value="" placeholder="请输入手机号码"></div><br>
+                                    <div>
+                                        <span>身份证照片：</span>                        
                                         <div>
-                                            <span>性别：</span>
-                                            <select name="gender" style="margin-left: 40px;" >
-                                                <option value="1">男</option>
-                                                <option value="2">女</option>
-                                            </select>
-                                        </div><br>
-                                        <div><span>用户昵称：</span><input id="userNmae" name="userName"style="margin-left: 16px;" type="text" value="" placeholder="请输入用户名"></div><br>
-                                        <div><span>手机号码：</span><input id="phone" name="phone" style="margin-left: 16px;" type="tel" value="" placeholder="请输入手机号码"></div><br>
+                                            <input id="upload_0" class="inputUploads"  type="file" multiple="multiple" />
+                                            <input id="uploadUrlCardId" type="hidden" name="cardPhoto" value="">
+                                        </div>
+
+                                        <div id='upload_img1'></div>
+
+                                    </div>
+                                    <div>
+                                        <span>英语证书：</span>
                                         <div>
-                                            <span>身份证照片：</span>                        
-                                            <div>
-                                                <input id="upload_0" class="inputUploads"  type="file" multiple="multiple" />
-                                                <input id="uploadUrlCardId" type="hidden" name="cardPhoto" value="">
-                                            </div>
-
-                                            <div id='upload_img1'></div>
-
+                                            <input id="upload_1" class="inputUploads"  type="file" multiple="multiple" />
+                                            <input id="certificatePhoto" type="hidden" name="certificatePhoto" value="">
                                         </div>
-                                        <div>
-                                            <span>英语证书：</span>
-                                            <div>
-                                                <input id="upload_1" class="inputUploads"  type="file" multiple="multiple" />
-                                                <input id="certificatePhoto" type="hidden" name="certificatePhoto" value="">
-                                            </div>
 
-                                            <div id='upload_img2'></div>
-                                        </div>
-                                        <div><button id="registerBut">注册</button></div>
-                                        </div>
-                                    {else if $addFruit eq 4}
-                                        <ul>
-                                            <li>1 基本信息</li>
-                                            <li  >2 邮箱激活</li>
-                                            <li >3 信息登记</li>
-                                            <li class="selecLi">4 等待审核</li>
-                                        </ul>
-                                        <div style="clear: both"></div>
-                                        <div class="MainDiv">
-                                            <div>您已经完成注册流程请等待审核。</div>
-                                        </div>
-                                    {/if}
+                                        <div id='upload_img2'></div>
+                                    </div>
+                                    <div style="margin-top: 25px;"><button id="registerBut">注册</button></div>
+                            </div>
+                        {else if $addFruit eq 4}
+                            <ul>
+                                <li>1 基本信息</li>
+                                <li  >2 邮箱激活</li>
+                                <li >3 信息登记</li>
+                                <li class="selecLi">4 等待审核</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                            <div class="MainDiv">
+                                <div>您已经完成注册流程请等待审核。</div>
+                            </div>
+                        {/if}
 
 
-                                </form>
-                        </div>
+                    </form>
                 </div>
-                <input type="hidden" id="masterDir" value="{$MasterDirUrl}">
             </div>
+            <input type="hidden" id="masterDir" value="{$MasterDirUrl}">
+        </div>
     </body>
     <script>
         URLstring = $("#masterDir").val();
@@ -254,7 +261,11 @@ and open the template in the editor.
             }
             if ($("#phone").val() == "") {
                 alertFlag = true;
-                alertText += "\r\n邮箱不能为空";
+                alertText += "\r\n手机不能为空";
+            }
+            if ($("#checkCode").val() == "") {
+                alertFlag = true;
+                alertText += "\r\n验证码不能为空";
             }
             if ($("#uploadUrlCardId").val() == "" || $("#certificatePhoto").val() == "") {
                 alertFlag = true;
